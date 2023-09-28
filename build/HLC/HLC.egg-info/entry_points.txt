@@ -1,0 +1,5 @@
+[console_scripts]
+Fake_Shot = HLC.test_shot:main
+HLC = HLC.main:main
+intercept = HLC.basic_intercept:main
+

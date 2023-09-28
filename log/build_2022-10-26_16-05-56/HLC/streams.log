@@ -1,0 +1,20 @@
+[0.968s] Invoking command in '/home/fizzer/PucksInDeep/build/HLC': PYTHONPATH=/home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fizzer/PucksInDeep/install/HLC --editable --build-directory /home/fizzer/PucksInDeep/build/HLC/build --no-deps install_data --install-dir /home/fizzer/PucksInDeep/install/HLC
+[1.324s] running develop
+[1.554s] running egg_info
+[1.555s] writing HLC.egg-info/PKG-INFO
+[1.555s] writing dependency_links to HLC.egg-info/dependency_links.txt
+[1.555s] writing entry points to HLC.egg-info/entry_points.txt
+[1.556s] writing requirements to HLC.egg-info/requires.txt
+[1.556s] writing top-level names to HLC.egg-info/top_level.txt
+[1.598s] reading manifest file 'HLC.egg-info/SOURCES.txt'
+[1.599s] writing manifest file 'HLC.egg-info/SOURCES.txt'
+[1.647s] running build_ext
+[1.655s] Creating /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/site.py
+[1.657s] Creating /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC.egg-link (link to .)
+[1.659s] Installing Fake_Shot script to /home/fizzer/PucksInDeep/install/HLC/lib/HLC
+[1.659s] Installing HLC script to /home/fizzer/PucksInDeep/install/HLC/lib/HLC
+[1.659s] Installing intercept script to /home/fizzer/PucksInDeep/install/HLC/lib/HLC
+[1.660s] 
+[1.660s] Installed /home/fizzer/PucksInDeep/build/HLC
+[1.660s] running install_data
+[1.701s] Invoked command in '/home/fizzer/PucksInDeep/build/HLC' returned '0': PYTHONPATH=/home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fizzer/PucksInDeep/install/HLC --editable --build-directory /home/fizzer/PucksInDeep/build/HLC/build --no-deps install_data --install-dir /home/fizzer/PucksInDeep/install/HLC

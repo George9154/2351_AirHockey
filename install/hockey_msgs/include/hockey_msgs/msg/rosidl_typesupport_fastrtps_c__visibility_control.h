@@ -1,0 +1,1 @@
+/home/fizzer/PucksInDeep/build/hockey_msgs/rosidl_typesupport_fastrtps_c/hockey_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

@@ -1,0 +1,3 @@
+[console_scripts]
+ID_tool = ID_tool.ID_tool:main
+

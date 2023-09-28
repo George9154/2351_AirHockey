@@ -1,0 +1,383 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (-) JobUnselected: {'identifier': 'HLC'}
+[0.001447] (-) JobUnselected: {'identifier': 'ID_tool'}
+[0.001518] (-) JobUnselected: {'identifier': 'PuckTrackerCpp'}
+[0.002488] (-) JobUnselected: {'identifier': 'bp_coms_cpp'}
+[0.002554] (-) JobUnselected: {'identifier': 'data_logger'}
+[0.002606] (-) JobUnselected: {'identifier': 'hockey_gui'}
+[0.002654] (-) JobUnselected: {'identifier': 'hockey_testing'}
+[0.002701] (-) JobUnselected: {'identifier': 'pt'}
+[0.002747] (-) JobUnselected: {'identifier': 'sim'}
+[0.002797] (hockey_msgs) JobQueued: {'identifier': 'hockey_msgs', 'dependencies': OrderedDict()}
+[0.002851] (hockey_msgs) JobStarted: {'identifier': 'hockey_msgs'}
+[0.020519] (hockey_msgs) JobProgress: {'identifier': 'hockey_msgs', 'progress': 'cmake'}
+[0.021933] (hockey_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/fizzer/PucksInDeep/PC/rosHockey/hockey_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fizzer/PucksInDeep/install/hockey_msgs'], 'cwd': '/home/fizzer/PucksInDeep/build/hockey_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'fizzer'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fizzer'), ('OLDPWD', '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fizzer'), ('WINDOWID', '46137347'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307'), ('GDM_LANG', 'en_CA'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/fizzer/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/fizzer'), ('AMENT_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/fizzer/PucksInDeep/build/hockey_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy')]), 'shell': False}
+[0.048903] (hockey_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.092320] (hockey_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.092620] (hockey_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099600] (-) TimerEvent: {}
+[0.199975] (-) TimerEvent: {}
+[0.300263] (-) TimerEvent: {}
+[0.382036] (hockey_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.400382] (-) TimerEvent: {}
+[0.434717] (hockey_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.500510] (-) TimerEvent: {}
+[0.528116] (hockey_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.533371] (hockey_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.537972] (hockey_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600641] (-) TimerEvent: {}
+[0.700995] (-) TimerEvent: {}
+[0.733353] (hockey_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801116] (-) TimerEvent: {}
+[0.804765] (hockey_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.901222] (-) TimerEvent: {}
+[0.921212] (hockey_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.001346] (-) TimerEvent: {}
+[1.055274] (hockey_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.070146] (hockey_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101446] (-) TimerEvent: {}
+[1.115676] (hockey_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.116111] (hockey_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.163588] (hockey_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.163826] (hockey_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.163982] (hockey_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.195826] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.201555] (-) TimerEvent: {}
+[1.232414] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.234258] (hockey_msgs) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.234500] (hockey_msgs) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.269936] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.270139] (hockey_msgs) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.274637] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.283341] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.287943] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.301666] (-) TimerEvent: {}
+[1.321214] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.321446] (hockey_msgs) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.325927] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.335508] (hockey_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.383869] (hockey_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.388057] (hockey_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/fizzer/PucksInDeep/build/hockey_msgs\n'}
+[1.397087] (hockey_msgs) CommandEnded: {'returncode': 0}
+[1.398018] (hockey_msgs) JobProgress: {'identifier': 'hockey_msgs', 'progress': 'build'}
+[1.399131] (hockey_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fizzer/PucksInDeep/build/hockey_msgs', '--', '-j4', '-l4'], 'cwd': '/home/fizzer/PucksInDeep/build/hockey_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'fizzer'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fizzer'), ('OLDPWD', '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fizzer'), ('WINDOWID', '46137347'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307'), ('GDM_LANG', 'en_CA'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/fizzer/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/fizzer'), ('AMENT_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/fizzer/PucksInDeep/build/hockey_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy')]), 'shell': False}
+[1.402172] (-) TimerEvent: {}
+[1.459163] (hockey_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.459821] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__cpp\x1b[0m\n'}
+[1.474107] (hockey_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.502257] (-) TimerEvent: {}
+[1.602611] (-) TimerEvent: {}
+[1.702955] (-) TimerEvent: {}
+[1.803487] (-) TimerEvent: {}
+[1.903830] (-) TimerEvent: {}
+[2.004246] (-) TimerEvent: {}
+[2.104714] (-) TimerEvent: {}
+[2.167847] (hockey_msgs) StdoutLine: {'line': b'[  3%] Built target hockey_msgs__cpp\n'}
+[2.203278] (hockey_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.204831] (-) TimerEvent: {}
+[2.225872] (hockey_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.237397] (hockey_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.256843] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.304951] (-) TimerEvent: {}
+[2.308625] (hockey_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__rosidl_generator_c.dir/rosidl_generator_c/hockey_msgs/msg/detail/mallet_pos__functions.c.o\x1b[0m\n'}
+[2.405060] (-) TimerEvent: {}
+[2.454612] (hockey_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__rosidl_generator_c.dir/rosidl_generator_c/hockey_msgs/msg/detail/puck_status__functions.c.o\x1b[0m\n'}
+[2.505175] (-) TimerEvent: {}
+[2.533432] (hockey_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__rosidl_generator_c.dir/rosidl_generator_c/hockey_msgs/msg/detail/motor_status__functions.c.o\x1b[0m\n'}
+[2.605287] (-) TimerEvent: {}
+[2.612466] (hockey_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__rosidl_generator_c.dir/rosidl_generator_c/hockey_msgs/msg/detail/next_path__functions.c.o\x1b[0m\n'}
+[2.688189] (hockey_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libhockey_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.705411] (-) TimerEvent: {}
+[2.787284] (hockey_msgs) StdoutLine: {'line': b'[ 18%] Built target hockey_msgs__rosidl_generator_c\n'}
+[2.805541] (-) TimerEvent: {}
+[2.807006] (hockey_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.905667] (-) TimerEvent: {}
+[2.955483] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.005784] (-) TimerEvent: {}
+[3.008608] (hockey_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hockey_msgs/msg/mallet_pos__type_support.cpp.o\x1b[0m\n'}
+[3.072471] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.105899] (-) TimerEvent: {}
+[3.119622] (hockey_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hockey_msgs/msg/detail/mallet_pos__type_support.cpp.o\x1b[0m\n'}
+[3.122458] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.195523] (hockey_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hockey_msgs/msg/detail/dds_fastrtps/mallet_pos__type_support.cpp.o\x1b[0m\n'}
+[3.206022] (-) TimerEvent: {}
+[3.306583] (-) TimerEvent: {}
+[3.407122] (-) TimerEvent: {}
+[3.468294] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[3.501481] (hockey_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hockey_msgs/msg/mallet_pos__type_support.cpp.o\x1b[0m\n'}
+[3.507271] (-) TimerEvent: {}
+[3.565127] (hockey_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hockey_msgs/msg/puck_status__type_support.cpp.o\x1b[0m\n'}
+[3.607408] (-) TimerEvent: {}
+[3.627871] (hockey_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hockey_msgs/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[3.639465] (hockey_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hockey_msgs/msg/puck_status__type_support.cpp.o\x1b[0m\n'}
+[3.690966] (hockey_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hockey_msgs/msg/next_path__type_support.cpp.o\x1b[0m\n'}
+[3.707539] (-) TimerEvent: {}
+[3.753009] (hockey_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libhockey_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.791354] (hockey_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hockey_msgs/msg/detail/puck_status__type_support.cpp.o\x1b[0m\n'}
+[3.807671] (-) TimerEvent: {}
+[3.855119] (hockey_msgs) StdoutLine: {'line': b'[ 38%] Built target hockey_msgs__rosidl_typesupport_c\n'}
+[3.875236] (hockey_msgs) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.907794] (-) TimerEvent: {}
+[4.008258] (-) TimerEvent: {}
+[4.108738] (-) TimerEvent: {}
+[4.209194] (-) TimerEvent: {}
+[4.265781] (hockey_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hockey_msgs/msg/detail/dds_fastrtps/puck_status__type_support.cpp.o\x1b[0m\n'}
+[4.278709] (hockey_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hockey_msgs/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[4.309319] (-) TimerEvent: {}
+[4.409752] (-) TimerEvent: {}
+[4.474720] (hockey_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hockey_msgs/msg/detail/motor_status__type_support.cpp.o\x1b[0m\n'}
+[4.509886] (-) TimerEvent: {}
+[4.610330] (-) TimerEvent: {}
+[4.710763] (-) TimerEvent: {}
+[4.811232] (-) TimerEvent: {}
+[4.831852] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.860542] (hockey_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hockey_msgs/msg/detail/mallet_pos__type_support.c.o\x1b[0m\n'}
+[4.911395] (-) TimerEvent: {}
+[4.922638] (hockey_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hockey_msgs/msg/next_path__type_support.cpp.o\x1b[0m\n'}
+[4.930256] (hockey_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hockey_msgs/msg/detail/puck_status__type_support.c.o\x1b[0m\n'}
+[4.999397] (hockey_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hockey_msgs/msg/detail/motor_status__type_support.c.o\x1b[0m\n'}
+[5.011547] (-) TimerEvent: {}
+[5.070076] (hockey_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hockey_msgs/msg/detail/next_path__type_support.c.o\x1b[0m\n'}
+[5.111693] (-) TimerEvent: {}
+[5.141122] (hockey_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libhockey_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.145571] (hockey_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hockey_msgs/msg/detail/next_path__type_support.cpp.o\x1b[0m\n'}
+[5.206970] (hockey_msgs) StdoutLine: {'line': b'[ 58%] Built target hockey_msgs__rosidl_typesupport_introspection_c\n'}
+[5.211854] (-) TimerEvent: {}
+[5.226711] (hockey_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hockey_msgs/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o\x1b[0m\n'}
+[5.258368] (hockey_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hockey_msgs/msg/detail/dds_fastrtps/next_path__type_support.cpp.o\x1b[0m\n'}
+[5.311990] (-) TimerEvent: {}
+[5.412395] (-) TimerEvent: {}
+[5.512857] (-) TimerEvent: {}
+[5.581077] (hockey_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libhockey_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.612999] (-) TimerEvent: {}
+[5.684767] (hockey_msgs) StdoutLine: {'line': b'[ 63%] Built target hockey_msgs__rosidl_typesupport_cpp\n'}
+[5.713125] (-) TimerEvent: {}
+[5.807121] (hockey_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libhockey_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.813262] (-) TimerEvent: {}
+[5.876072] (hockey_msgs) StdoutLine: {'line': b'[ 65%] Built target hockey_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.913398] (-) TimerEvent: {}
+[6.013760] (-) TimerEvent: {}
+[6.114099] (-) TimerEvent: {}
+[6.132878] (hockey_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libhockey_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.214248] (-) TimerEvent: {}
+[6.314670] (-) TimerEvent: {}
+[6.340024] (hockey_msgs) StdoutLine: {'line': b'[ 67%] Built target hockey_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.356476] (hockey_msgs) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.414754] (-) TimerEvent: {}
+[6.515097] (-) TimerEvent: {}
+[6.615494] (-) TimerEvent: {}
+[6.715818] (-) TimerEvent: {}
+[6.816241] (-) TimerEvent: {}
+[6.828313] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.886333] (hockey_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hockey_msgs/msg/detail/mallet_pos__type_support_c.cpp.o\x1b[0m\n'}
+[6.886732] (hockey_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hockey_msgs/msg/detail/puck_status__type_support_c.cpp.o\x1b[0m\n'}
+[6.887127] (hockey_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hockey_msgs/msg/detail/motor_status__type_support_c.cpp.o\x1b[0m\n'}
+[6.896135] (hockey_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/hockey_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hockey_msgs/msg/detail/next_path__type_support_c.cpp.o\x1b[0m\n'}
+[6.916372] (-) TimerEvent: {}
+[7.016850] (-) TimerEvent: {}
+[7.117267] (-) TimerEvent: {}
+[7.217743] (-) TimerEvent: {}
+[7.318203] (-) TimerEvent: {}
+[7.418633] (-) TimerEvent: {}
+[7.519097] (-) TimerEvent: {}
+[7.619561] (-) TimerEvent: {}
+[7.686859] (hockey_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libhockey_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.719683] (-) TimerEvent: {}
+[7.820180] (hockey_msgs) StdoutLine: {'line': b'[ 78%] Built target hockey_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.820464] (-) TimerEvent: {}
+[7.836069] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs\x1b[0m\n'}
+[7.852785] (hockey_msgs) StdoutLine: {'line': b'[ 78%] Built target hockey_msgs\n'}
+[7.868656] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__py\x1b[0m\n'}
+[7.885823] (hockey_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.920577] (-) TimerEvent: {}
+[8.020927] (-) TimerEvent: {}
+[8.121275] (-) TimerEvent: {}
+[8.221648] (-) TimerEvent: {}
+[8.322024] (-) TimerEvent: {}
+[8.422638] (-) TimerEvent: {}
+[8.522968] (-) TimerEvent: {}
+[8.623571] (-) TimerEvent: {}
+[8.724025] (-) TimerEvent: {}
+[8.824365] (-) TimerEvent: {}
+[8.924730] (-) TimerEvent: {}
+[9.025220] (-) TimerEvent: {}
+[9.125551] (-) TimerEvent: {}
+[9.225883] (-) TimerEvent: {}
+[9.326198] (-) TimerEvent: {}
+[9.426501] (-) TimerEvent: {}
+[9.526882] (-) TimerEvent: {}
+[9.606686] (hockey_msgs) StdoutLine: {'line': b'[ 80%] Built target hockey_msgs__py\n'}
+[9.623351] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__python\x1b[0m\n'}
+[9.627009] (-) TimerEvent: {}
+[9.727347] (-) TimerEvent: {}
+[9.827671] (-) TimerEvent: {}
+[9.839812] (hockey_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__python.dir/rosidl_generator_py/hockey_msgs/msg/_puck_status_s.c.o\x1b[0m\n'}
+[9.840221] (hockey_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__python.dir/rosidl_generator_py/hockey_msgs/msg/_next_path_s.c.o\x1b[0m\n'}
+[9.840521] (hockey_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__python.dir/rosidl_generator_py/hockey_msgs/msg/_motor_status_s.c.o\x1b[0m\n'}
+[9.849951] (hockey_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__python.dir/rosidl_generator_py/hockey_msgs/msg/_mallet_pos_s.c.o\x1b[0m\n'}
+[9.927783] (-) TimerEvent: {}
+[10.028120] (-) TimerEvent: {}
+[10.128479] (-) TimerEvent: {}
+[10.151294] (hockey_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hockey_msgs/libhockey_msgs__python.so\x1b[0m\n'}
+[10.228587] (-) TimerEvent: {}
+[10.231249] (hockey_msgs) StdoutLine: {'line': b'[ 89%] Built target hockey_msgs__python\n'}
+[10.245462] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.250062] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.250318] (hockey_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hockey_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.306116] (hockey_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hockey_msgs/_hockey_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.316760] (hockey_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hockey_msgs/_hockey_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.323816] (hockey_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/hockey_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hockey_msgs/_hockey_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.328711] (-) TimerEvent: {}
+[10.429262] (-) TimerEvent: {}
+[10.443126] (hockey_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/hockey_msgs/hockey_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.509107] (hockey_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hockey_msgs/hockey_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.517660] (hockey_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hockey_msgs/hockey_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.529402] (-) TimerEvent: {}
+[10.550797] (hockey_msgs) StdoutLine: {'line': b'[100%] Built target hockey_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.567955] (hockey_msgs) StdoutLine: {'line': b'[100%] Built target hockey_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[10.570119] (hockey_msgs) StdoutLine: {'line': b'[100%] Built target hockey_msgs__rosidl_typesupport_c__pyext\n'}
+[10.586189] (hockey_msgs) CommandEnded: {'returncode': 0}
+[10.629655] (-) TimerEvent: {}
+[10.704619] (hockey_msgs) JobProgress: {'identifier': 'hockey_msgs', 'progress': 'install'}
+[10.717727] (hockey_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fizzer/PucksInDeep/build/hockey_msgs'], 'cwd': '/home/fizzer/PucksInDeep/build/hockey_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'fizzer'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fizzer'), ('OLDPWD', '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fizzer'), ('WINDOWID', '46137347'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307'), ('GDM_LANG', 'en_CA'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/fizzer/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/fizzer'), ('AMENT_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/fizzer/PucksInDeep/build/hockey_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy')]), 'shell': False}
+[10.729820] (-) TimerEvent: {}
+[10.730492] (hockey_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.731261] (hockey_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.731771] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/ament_index/resource_index/rosidl_interfaces/hockey_msgs\n'}
+[10.746786] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/mallet_pos__functions.h\n'}
+[10.758650] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/mallet_pos__struct.h\n'}
+[10.770392] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/mallet_pos__type_support.h\n'}
+[10.781908] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/motor_status__functions.h\n'}
+[10.793706] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/motor_status__struct.h\n'}
+[10.805070] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/motor_status__type_support.h\n'}
+[10.816245] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/next_path__functions.h\n'}
+[10.827310] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/next_path__struct.h\n'}
+[10.829900] (-) TimerEvent: {}
+[10.841581] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/next_path__type_support.h\n'}
+[10.852988] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/puck_status__functions.h\n'}
+[10.865204] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/puck_status__struct.h\n'}
+[10.876460] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/puck_status__type_support.h\n'}
+[10.887510] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/mallet_pos.h\n'}
+[10.898706] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/motor_status.h\n'}
+[10.909826] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/next_path.h\n'}
+[10.921080] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/puck_status.h\n'}
+[10.930035] (-) TimerEvent: {}
+[10.932277] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.943885] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/environment/library_path.sh\n'}
+[10.955136] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/environment/library_path.dsv\n'}
+[10.970107] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/mallet_pos__rosidl_typesupport_fastrtps_c.h\n'}
+[10.982130] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[10.994062] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/next_path__rosidl_typesupport_fastrtps_c.h\n'}
+[11.005636] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/puck_status__rosidl_typesupport_fastrtps_c.h\n'}
+[11.017295] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.029213] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[11.030147] (-) TimerEvent: {}
+[11.041741] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/mallet_pos__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.054299] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.067254] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/next_path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.078906] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/puck_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.090816] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.102800] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.115042] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/mallet_pos__rosidl_typesupport_introspection_c.h\n'}
+[11.127019] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/motor_status__rosidl_typesupport_introspection_c.h\n'}
+[11.130258] (-) TimerEvent: {}
+[11.138683] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/next_path__rosidl_typesupport_introspection_c.h\n'}
+[11.150287] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/puck_status__rosidl_typesupport_introspection_c.h\n'}
+[11.163271] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.176543] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/mallet_pos__builder.hpp\n'}
+[11.192530] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/mallet_pos__struct.hpp\n'}
+[11.203996] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/mallet_pos__traits.hpp\n'}
+[11.217853] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/motor_status__builder.hpp\n'}
+[11.229623] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/motor_status__struct.hpp\n'}
+[11.230351] (-) TimerEvent: {}
+[11.241339] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/motor_status__traits.hpp\n'}
+[11.252985] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/next_path__builder.hpp\n'}
+[11.265167] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/next_path__struct.hpp\n'}
+[11.277126] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/next_path__traits.hpp\n'}
+[11.292354] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/puck_status__builder.hpp\n'}
+[11.303506] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/puck_status__struct.hpp\n'}
+[11.314627] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/puck_status__traits.hpp\n'}
+[11.327687] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/mallet_pos.hpp\n'}
+[11.330525] (-) TimerEvent: {}
+[11.343619] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/motor_status.hpp\n'}
+[11.354928] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/next_path.hpp\n'}
+[11.367081] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/puck_status.hpp\n'}
+[11.378986] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/mallet_pos__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.390545] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.405054] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/next_path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.416199] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/include/hockey_msgs/msg/detail/puck_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.427465] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/environment/pythonpath.sh\n'}
+[11.430648] (-) TimerEvent: {}
+[11.442995] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/environment/pythonpath.dsv\n'}
+[11.457557] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/python3.8/site-packages/hockey_msgs/__init__.py\n'}
+[11.470133] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/python3.8/site-packages/hockey_msgs/msg/__init__.py\n'}
+[11.483285] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/python3.8/site-packages/hockey_msgs/msg/_mallet_pos.py\n'}
+[11.499026] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/python3.8/site-packages/hockey_msgs/msg/_motor_status.py\n'}
+[11.510339] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/python3.8/site-packages/hockey_msgs/msg/_next_path.py\n'}
+[11.521389] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/python3.8/site-packages/hockey_msgs/msg/_puck_status.py\n'}
+[11.530771] (-) TimerEvent: {}
+[11.533115] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/python3.8/site-packages/hockey_msgs/hockey_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.544668] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/python3.8/site-packages/hockey_msgs/hockey_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.560168] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/python3.8/site-packages/hockey_msgs/hockey_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.572526] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__python.so\n'}
+[11.584445] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/msg/MalletPos.idl\n'}
+[11.596308] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/msg/PuckStatus.idl\n'}
+[11.608063] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/msg/MotorStatus.idl\n'}
+[11.621374] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/msg/NextPath.idl\n'}
+[11.630900] (-) TimerEvent: {}
+[11.633170] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/msg/MalletPos.msg\n'}
+[11.644983] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/msg/PuckStatus.msg\n'}
+[11.656639] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/msg/MotorStatus.msg\n'}
+[11.669116] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/msg/NextPath.msg\n'}
+[11.680987] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/ament_index/resource_index/package_run_dependencies/hockey_msgs\n'}
+[11.692381] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/ament_index/resource_index/parent_prefix_path/hockey_msgs\n'}
+[11.703449] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/environment/ament_prefix_path.sh\n'}
+[11.714624] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/environment/ament_prefix_path.dsv\n'}
+[11.725732] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/environment/path.sh\n'}
+[11.731048] (-) TimerEvent: {}
+[11.736922] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/environment/path.dsv\n'}
+[11.748233] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/local_setup.bash\n'}
+[11.760239] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/local_setup.sh\n'}
+[11.771851] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/local_setup.zsh\n'}
+[11.783438] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/local_setup.dsv\n'}
+[11.795071] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/package.dsv\n'}
+[11.806545] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/ament_index/resource_index/packages/hockey_msgs\n'}
+[11.818070] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[11.829647] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.831152] (-) TimerEvent: {}
+[11.841212] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.855466] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.870758] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.881979] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.893599] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.905105] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgsConfig.cmake\n'}
+[11.916201] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgsConfig-version.cmake\n'}
+[11.927439] (hockey_msgs) StdoutLine: {'line': b'-- Symlinking: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/package.xml\n'}
+[11.931288] (-) TimerEvent: {}
+[11.938910] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_generator_c.so\n'}
+[11.939494] (hockey_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_generator_c.so" to ""\n'}
+[11.939813] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_typesupport_introspection_c.so\n'}
+[11.940446] (hockey_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.940801] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_typesupport_c.so\n'}
+[11.941272] (hockey_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_typesupport_c.so" to ""\n'}
+[11.941586] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[11.942206] (hockey_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.942552] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_typesupport_cpp.so\n'}
+[11.943060] (hockey_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/PucksInDeep/install/hockey_msgs/lib/libhockey_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[12.007205] (hockey_msgs) StdoutLine: {'line': b"Compiling '/home/fizzer/PucksInDeep/install/hockey_msgs/lib/python3.8/site-packages/hockey_msgs/__init__.py'...\n"}
+[12.012758] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgs__rosidl_generator_cExport.cmake\n'}
+[12.013086] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.013298] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.013556] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.013856] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgs__rosidl_typesupport_cExport.cmake\n'}
+[12.014090] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.014391] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgs__rosidl_generator_cppExport.cmake\n'}
+[12.014688] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.014898] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.015193] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[12.015433] (hockey_msgs) StdoutLine: {'line': b'-- Installing: /home/fizzer/PucksInDeep/install/hockey_msgs/share/hockey_msgs/cmake/hockey_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.018242] (hockey_msgs) CommandEnded: {'returncode': 0}
+[12.031808] (-) TimerEvent: {}
+[12.132560] (-) TimerEvent: {}
+[12.176990] (hockey_msgs) JobEnded: {'identifier': 'hockey_msgs', 'rc': 0}
+[12.178156] (-) EventReactorShutdown: {}

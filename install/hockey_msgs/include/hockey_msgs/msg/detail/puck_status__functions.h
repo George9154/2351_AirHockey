@@ -1,0 +1,1 @@
+/home/fizzer/PucksInDeep/build/hockey_msgs/rosidl_generator_c/hockey_msgs/msg/detail/puck_status__functions.h

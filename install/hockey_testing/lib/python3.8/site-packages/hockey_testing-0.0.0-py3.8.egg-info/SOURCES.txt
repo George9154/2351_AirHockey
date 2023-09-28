@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/hockey_testing/hockey_testing.egg-info/PKG-INFO
+../../../build/hockey_testing/hockey_testing.egg-info/SOURCES.txt
+../../../build/hockey_testing/hockey_testing.egg-info/dependency_links.txt
+../../../build/hockey_testing/hockey_testing.egg-info/entry_points.txt
+../../../build/hockey_testing/hockey_testing.egg-info/requires.txt
+../../../build/hockey_testing/hockey_testing.egg-info/top_level.txt
+../../../build/hockey_testing/hockey_testing.egg-info/zip-safe
+hockey_testing/__init__.py
+hockey_testing/data_gen.py
+hockey_testing/run_test.py
+resource/hockey_testing
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

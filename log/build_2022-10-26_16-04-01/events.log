@@ -1,0 +1,578 @@
+[0.000000] (-) TimerEvent: {}
+[0.001068] (HLC) JobQueued: {'identifier': 'HLC', 'dependencies': OrderedDict()}
+[0.001146] (ID_tool) JobQueued: {'identifier': 'ID_tool', 'dependencies': OrderedDict()}
+[0.001200] (PuckTrackerCpp) JobQueued: {'identifier': 'PuckTrackerCpp', 'dependencies': OrderedDict()}
+[0.001249] (data_logger) JobQueued: {'identifier': 'data_logger', 'dependencies': OrderedDict()}
+[0.001297] (hockey_gui) JobQueued: {'identifier': 'hockey_gui', 'dependencies': OrderedDict()}
+[0.001344] (hockey_msgs) JobQueued: {'identifier': 'hockey_msgs', 'dependencies': OrderedDict()}
+[0.001390] (hockey_testing) JobQueued: {'identifier': 'hockey_testing', 'dependencies': OrderedDict()}
+[0.001437] (pt) JobQueued: {'identifier': 'pt', 'dependencies': OrderedDict()}
+[0.001483] (sim) JobQueued: {'identifier': 'sim', 'dependencies': OrderedDict()}
+[0.001529] (bp_coms_cpp) JobQueued: {'identifier': 'bp_coms_cpp', 'dependencies': OrderedDict([('hockey_msgs', '/home/fizzer/PucksInDeep/install/hockey_msgs')])}
+[0.001580] (hockey_msgs) JobStarted: {'identifier': 'hockey_msgs'}
+[0.015476] (HLC) JobStarted: {'identifier': 'HLC'}
+[0.030909] (ID_tool) JobStarted: {'identifier': 'ID_tool'}
+[0.045091] (PuckTrackerCpp) JobStarted: {'identifier': 'PuckTrackerCpp'}
+[0.058894] (hockey_msgs) JobProgress: {'identifier': 'hockey_msgs', 'progress': 'cmake'}
+[0.060010] (hockey_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/fizzer/PucksInDeep/PC/rosHockey/hockey_msgs', '-DCMAKE_INSTALL_PREFIX=/home/fizzer/PucksInDeep/install/hockey_msgs'], 'cwd': '/home/fizzer/PucksInDeep/build/hockey_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'fizzer'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fizzer'), ('OLDPWD', '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fizzer'), ('WINDOWID', '46137347'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307'), ('GDM_LANG', 'en_CA'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/fizzer/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/fizzer'), ('AMENT_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/fizzer/PucksInDeep/build/hockey_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy')]), 'shell': False}
+[0.098487] (-) TimerEvent: {}
+[0.199002] (-) TimerEvent: {}
+[0.299364] (-) TimerEvent: {}
+[0.399705] (-) TimerEvent: {}
+[0.500236] (-) TimerEvent: {}
+[0.600859] (-) TimerEvent: {}
+[0.701234] (-) TimerEvent: {}
+[0.775745] (PuckTrackerCpp) JobProgress: {'identifier': 'PuckTrackerCpp', 'progress': 'cmake'}
+[0.777727] (PuckTrackerCpp) Command: {'cmd': ['/usr/bin/cmake', '/home/fizzer/PucksInDeep/RPi/RPi-pucktracker/puck_tracker_cpp', '-DCMAKE_INSTALL_PREFIX=/home/fizzer/PucksInDeep/install/PuckTrackerCpp'], 'cwd': '/home/fizzer/PucksInDeep/build/PuckTrackerCpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'fizzer'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fizzer'), ('OLDPWD', '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fizzer'), ('WINDOWID', '46137347'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307'), ('GDM_LANG', 'en_CA'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/fizzer/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/fizzer'), ('AMENT_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/fizzer/PucksInDeep/build/PuckTrackerCpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs')]), 'shell': False}
+[0.801429] (-) TimerEvent: {}
+[0.902101] (-) TimerEvent: {}
+[0.917634] (hockey_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.921781] (PuckTrackerCpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.002214] (-) TimerEvent: {}
+[1.102611] (-) TimerEvent: {}
+[1.203035] (-) TimerEvent: {}
+[1.303495] (-) TimerEvent: {}
+[1.404128] (-) TimerEvent: {}
+[1.504714] (-) TimerEvent: {}
+[1.567669] (ID_tool) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/ID_tool', 'build', '--build-base', '/home/fizzer/PucksInDeep/build/ID_tool/build', 'install', '--prefix', '/home/fizzer/PucksInDeep/install/ID_tool', '--record', '/home/fizzer/PucksInDeep/build/ID_tool/install.log', '--single-version-externally-managed'], 'cwd': '/home/fizzer/PucksInDeep/PC/rosHockey/ID_tool', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'fizzer', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1384', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/fizzer', 'OLDPWD': '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'fizzer', 'WINDOWID': '46137347', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307', 'GDM_LANG': 'en_CA', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/fizzer/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fizzer', 'AMENT_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/fizzer/PucksInDeep/build/ID_tool', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs'}, 'shell': False}
+[1.575149] (HLC) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/HLC', 'build', '--build-base', '/home/fizzer/PucksInDeep/build/HLC/build', 'install', '--prefix', '/home/fizzer/PucksInDeep/install/HLC', '--record', '/home/fizzer/PucksInDeep/build/HLC/install.log', '--single-version-externally-managed'], 'cwd': '/home/fizzer/PucksInDeep/PC/rosHockey/HLC', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'fizzer', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1384', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/fizzer', 'OLDPWD': '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'fizzer', 'WINDOWID': '46137347', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307', 'GDM_LANG': 'en_CA', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/fizzer/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fizzer', 'AMENT_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/fizzer/PucksInDeep/build/HLC', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs'}, 'shell': False}
+[1.604856] (-) TimerEvent: {}
+[1.705415] (-) TimerEvent: {}
+[1.805843] (-) TimerEvent: {}
+[1.906267] (-) TimerEvent: {}
+[1.931807] (ID_tool) StdoutLine: {'line': b'running egg_info\n'}
+[1.933718] (ID_tool) StdoutLine: {'line': b'creating ../../../build/ID_tool/ID_tool.egg-info\n'}
+[1.934746] (ID_tool) StdoutLine: {'line': b'writing ../../../build/ID_tool/ID_tool.egg-info/PKG-INFO\n'}
+[1.935273] (ID_tool) StdoutLine: {'line': b'writing dependency_links to ../../../build/ID_tool/ID_tool.egg-info/dependency_links.txt\n'}
+[1.935614] (ID_tool) StdoutLine: {'line': b'writing entry points to ../../../build/ID_tool/ID_tool.egg-info/entry_points.txt\n'}
+[1.935766] (ID_tool) StdoutLine: {'line': b'writing requirements to ../../../build/ID_tool/ID_tool.egg-info/requires.txt\n'}
+[1.935876] (ID_tool) StdoutLine: {'line': b'writing top-level names to ../../../build/ID_tool/ID_tool.egg-info/top_level.txt\n'}
+[1.944642] (HLC) StdoutLine: {'line': b'running egg_info\n'}
+[1.945297] (HLC) StdoutLine: {'line': b'creating ../../../build/HLC/HLC.egg-info\n'}
+[1.945509] (HLC) StdoutLine: {'line': b'writing ../../../build/HLC/HLC.egg-info/PKG-INFO\n'}
+[1.945851] (HLC) StdoutLine: {'line': b'writing dependency_links to ../../../build/HLC/HLC.egg-info/dependency_links.txt\n'}
+[1.946029] (HLC) StdoutLine: {'line': b'writing entry points to ../../../build/HLC/HLC.egg-info/entry_points.txt\n'}
+[1.946181] (HLC) StdoutLine: {'line': b'writing requirements to ../../../build/HLC/HLC.egg-info/requires.txt\n'}
+[1.946320] (HLC) StdoutLine: {'line': b'writing top-level names to ../../../build/HLC/HLC.egg-info/top_level.txt\n'}
+[2.006380] (-) TimerEvent: {}
+[2.105361] (HLC) StdoutLine: {'line': b"writing manifest file '../../../build/HLC/HLC.egg-info/SOURCES.txt'\n"}
+[2.105665] (ID_tool) StdoutLine: {'line': b"writing manifest file '../../../build/ID_tool/ID_tool.egg-info/SOURCES.txt'\n"}
+[2.106498] (-) TimerEvent: {}
+[2.169067] (ID_tool) StdoutLine: {'line': b"reading manifest file '../../../build/ID_tool/ID_tool.egg-info/SOURCES.txt'\n"}
+[2.170267] (HLC) StdoutLine: {'line': b"reading manifest file '../../../build/HLC/HLC.egg-info/SOURCES.txt'\n"}
+[2.170607] (ID_tool) StdoutLine: {'line': b"writing manifest file '../../../build/ID_tool/ID_tool.egg-info/SOURCES.txt'\n"}
+[2.170852] (ID_tool) StdoutLine: {'line': b'running build\n'}
+[2.171153] (ID_tool) StdoutLine: {'line': b'running build_py\n'}
+[2.171342] (ID_tool) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/ID_tool/build\n'}
+[2.171698] (ID_tool) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/ID_tool/build/lib\n'}
+[2.171931] (ID_tool) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool\n'}
+[2.172323] (ID_tool) StdoutLine: {'line': b'copying ID_tool/ID_tool.py -> /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool\n'}
+[2.172570] (ID_tool) StdoutLine: {'line': b'copying ID_tool/__init__.py -> /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool\n'}
+[2.172791] (HLC) StdoutLine: {'line': b"writing manifest file '../../../build/HLC/HLC.egg-info/SOURCES.txt'\n"}
+[2.172976] (HLC) StdoutLine: {'line': b'running build\n'}
+[2.173141] (HLC) StdoutLine: {'line': b'running build_py\n'}
+[2.173307] (ID_tool) StdoutLine: {'line': b'copying ID_tool/ModelLearningMonitor.py -> /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool\n'}
+[2.173477] (HLC) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/HLC/build\n'}
+[2.173647] (HLC) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/HLC/build/lib\n'}
+[2.173815] (HLC) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/HLC/build/lib/HLC\n'}
+[2.173983] (ID_tool) StdoutLine: {'line': b'running install\n'}
+[2.174247] (HLC) StdoutLine: {'line': b'copying HLC/main.py -> /home/fizzer/PucksInDeep/build/HLC/build/lib/HLC\n'}
+[2.174416] (HLC) StdoutLine: {'line': b'copying HLC/__init__.py -> /home/fizzer/PucksInDeep/build/HLC/build/lib/HLC\n'}
+[2.174592] (HLC) StdoutLine: {'line': b'running install\n'}
+[2.174755] (HLC) StdoutLine: {'line': b'running install_lib\n'}
+[2.174930] (ID_tool) StdoutLine: {'line': b'running install_lib\n'}
+[2.176445] (ID_tool) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool\n'}
+[2.176917] (ID_tool) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool/ID_tool.py -> /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool\n'}
+[2.177221] (ID_tool) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool/__init__.py -> /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool\n'}
+[2.177435] (ID_tool) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool/ModelLearningMonitor.py -> /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool\n'}
+[2.178010] (HLC) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC\n'}
+[2.178435] (HLC) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/HLC/build/lib/HLC/main.py -> /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC\n'}
+[2.178712] (ID_tool) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool/ID_tool.py to ID_tool.cpython-38.pyc\n'}
+[2.178925] (HLC) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/HLC/build/lib/HLC/__init__.py -> /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC\n'}
+[2.179756] (HLC) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC/main.py to main.cpython-38.pyc\n'}
+[2.180788] (ID_tool) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool/__init__.py to __init__.cpython-38.pyc\n'}
+[2.181142] (ID_tool) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool/ModelLearningMonitor.py to ModelLearningMonitor.cpython-38.pyc\n'}
+[2.182258] (ID_tool) StdoutLine: {'line': b'running install_data\n'}
+[2.183072] (ID_tool) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/ID_tool/share/ament_index\n'}
+[2.183467] (ID_tool) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/ID_tool/share/ament_index/resource_index\n'}
+[2.183773] (ID_tool) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/ID_tool/share/ament_index/resource_index/packages\n'}
+[2.183988] (ID_tool) StdoutLine: {'line': b'copying resource/ID_tool -> /home/fizzer/PucksInDeep/install/ID_tool/share/ament_index/resource_index/packages\n'}
+[2.184266] (ID_tool) StdoutLine: {'line': b'copying package.xml -> /home/fizzer/PucksInDeep/install/ID_tool/share/ID_tool\n'}
+[2.184689] (ID_tool) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.184916] (HLC) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC/__init__.py to __init__.cpython-38.pyc\n'}
+[2.185122] (HLC) StdoutLine: {'line': b'running install_data\n'}
+[2.185607] (HLC) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/HLC/share/ament_index\n'}
+[2.200510] (HLC) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/HLC/share/ament_index/resource_index\n'}
+[2.200802] (HLC) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/HLC/share/ament_index/resource_index/packages\n'}
+[2.200994] (HLC) StdoutLine: {'line': b'copying resource/HLC -> /home/fizzer/PucksInDeep/install/HLC/share/ament_index/resource_index/packages\n'}
+[2.201184] (HLC) StdoutLine: {'line': b'copying package.xml -> /home/fizzer/PucksInDeep/install/HLC/share/HLC\n'}
+[2.201350] (HLC) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.201501] (HLC) StdoutLine: {'line': b'Copying ../../../build/HLC/HLC.egg-info to /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC-0.0.0-py3.8.egg-info\n'}
+[2.201667] (HLC) StdoutLine: {'line': b'running install_scripts\n'}
+[2.201835] (ID_tool) StdoutLine: {'line': b'Copying ../../../build/ID_tool/ID_tool.egg-info to /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool-0.0.0-py3.8.egg-info\n'}
+[2.202026] (ID_tool) StdoutLine: {'line': b'running install_scripts\n'}
+[2.206662] (-) TimerEvent: {}
+[2.227551] (hockey_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.227913] (ID_tool) StdoutLine: {'line': b'Installing ID_tool script to /home/fizzer/PucksInDeep/install/ID_tool/lib/ID_tool\n'}
+[2.228324] (ID_tool) StdoutLine: {'line': b"writing list of installed files to '/home/fizzer/PucksInDeep/build/ID_tool/install.log'\n"}
+[2.235429] (PuckTrackerCpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.250257] (HLC) StdoutLine: {'line': b'Installing Fake_Shot script to /home/fizzer/PucksInDeep/install/HLC/lib/HLC\n'}
+[2.250711] (HLC) StdoutLine: {'line': b'Installing HLC script to /home/fizzer/PucksInDeep/install/HLC/lib/HLC\n'}
+[2.250984] (HLC) StdoutLine: {'line': b'Installing intercept script to /home/fizzer/PucksInDeep/install/HLC/lib/HLC\n'}
+[2.251681] (HLC) StdoutLine: {'line': b"writing list of installed files to '/home/fizzer/PucksInDeep/build/HLC/install.log'\n"}
+[2.272633] (ID_tool) CommandEnded: {'returncode': 0}
+[2.292399] (ID_tool) JobEnded: {'identifier': 'ID_tool', 'rc': 0}
+[2.294480] (data_logger) JobStarted: {'identifier': 'data_logger'}
+[2.307961] (HLC) CommandEnded: {'returncode': 0}
+[2.309511] (-) TimerEvent: {}
+[2.320585] (HLC) JobEnded: {'identifier': 'HLC', 'rc': 0}
+[2.323685] (hockey_gui) JobStarted: {'identifier': 'hockey_gui'}
+[2.334802] (hockey_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.337432] (PuckTrackerCpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.409737] (-) TimerEvent: {}
+[2.478914] (PuckTrackerCpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.481120] (PuckTrackerCpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.495092] (hockey_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.496671] (hockey_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.509831] (-) TimerEvent: {}
+[2.610615] (-) TimerEvent: {}
+[2.615982] (hockey_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.632402] (hockey_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.633239] (hockey_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.645637] (PuckTrackerCpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.647765] (hockey_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.685426] (PuckTrackerCpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.686570] (PuckTrackerCpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.696063] (PuckTrackerCpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.710729] (-) TimerEvent: {}
+[2.762585] (hockey_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.764960] (hockey_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.810862] (-) TimerEvent: {}
+[2.834861] (PuckTrackerCpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.838086] (PuckTrackerCpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.911013] (-) TimerEvent: {}
+[2.911978] (hockey_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.932799] (hockey_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.934160] (hockey_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.981879] (PuckTrackerCpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.011136] (-) TimerEvent: {}
+[3.019692] (PuckTrackerCpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.021305] (PuckTrackerCpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.111230] (-) TimerEvent: {}
+[3.167909] (hockey_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.211337] (-) TimerEvent: {}
+[3.230287] (PuckTrackerCpp) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[3.231433] (PuckTrackerCpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.243954] (PuckTrackerCpp) StdoutLine: {'line': b'-- Generating done\n'}
+[3.245157] (PuckTrackerCpp) StdoutLine: {'line': b'-- Build files have been written to: /home/fizzer/PucksInDeep/build/PuckTrackerCpp\n'}
+[3.311489] (-) TimerEvent: {}
+[3.312002] (hockey_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.312556] (hockey_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.335862] (PuckTrackerCpp) CommandEnded: {'returncode': 0}
+[3.337430] (PuckTrackerCpp) JobProgress: {'identifier': 'PuckTrackerCpp', 'progress': 'build'}
+[3.341186] (PuckTrackerCpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fizzer/PucksInDeep/build/PuckTrackerCpp', '--', '-j4', '-l4'], 'cwd': '/home/fizzer/PucksInDeep/build/PuckTrackerCpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'fizzer'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fizzer'), ('OLDPWD', '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fizzer'), ('WINDOWID', '46137347'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307'), ('GDM_LANG', 'en_CA'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/fizzer/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/fizzer'), ('AMENT_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/fizzer/PucksInDeep/build/PuckTrackerCpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs')]), 'shell': False}
+[3.411729] (-) TimerEvent: {}
+[3.417748] (PuckTrackerCpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target puck_tracker\x1b[0m\n'}
+[3.433125] (PuckTrackerCpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tracker\x1b[0m\n'}
+[3.511807] (-) TimerEvent: {}
+[3.612372] (-) TimerEvent: {}
+[3.712981] (-) TimerEvent: {}
+[3.813616] (-) TimerEvent: {}
+[3.914204] (-) TimerEvent: {}
+[4.005241] (PuckTrackerCpp) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/tracker.dir/lib/savgol/savgol.cpp.o\x1b[0m\n'}
+[4.014325] (-) TimerEvent: {}
+[4.025572] (PuckTrackerCpp) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/puck_tracker.dir/puck_tracker.cpp.o\x1b[0m\n'}
+[4.026446] (PuckTrackerCpp) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tracker.dir/lib/PuckTracker/tracker.cpp.o\x1b[0m\n'}
+[4.045477] (PuckTrackerCpp) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/puck_tracker.dir/lib/PuckTracker/tracker.cpp.o\x1b[0m\n'}
+[4.114465] (-) TimerEvent: {}
+[4.123353] (hockey_gui) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/hockey_gui', 'build', '--build-base', '/home/fizzer/PucksInDeep/build/hockey_gui/build', 'install', '--prefix', '/home/fizzer/PucksInDeep/install/hockey_gui', '--record', '/home/fizzer/PucksInDeep/build/hockey_gui/install.log', '--single-version-externally-managed'], 'cwd': '/home/fizzer/PucksInDeep/PC/rosHockey/hockey_gui', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'fizzer', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1384', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/fizzer', 'OLDPWD': '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'fizzer', 'WINDOWID': '46137347', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307', 'GDM_LANG': 'en_CA', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/fizzer/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fizzer', 'AMENT_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/fizzer/PucksInDeep/build/hockey_gui', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs'}, 'shell': False}
+[4.185053] (hockey_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.214610] (-) TimerEvent: {}
+[4.271906] (data_logger) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/data_logger', 'build', '--build-base', '/home/fizzer/PucksInDeep/build/data_logger/build', 'install', '--prefix', '/home/fizzer/PucksInDeep/install/data_logger', '--record', '/home/fizzer/PucksInDeep/build/data_logger/install.log', '--single-version-externally-managed'], 'cwd': '/home/fizzer/PucksInDeep/PC/rosHockey/data_logger', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'fizzer', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1384', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/fizzer', 'OLDPWD': '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'fizzer', 'WINDOWID': '46137347', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307', 'GDM_LANG': 'en_CA', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/fizzer/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fizzer', 'AMENT_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/fizzer/PucksInDeep/build/data_logger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs'}, 'shell': False}
+[4.314804] (-) TimerEvent: {}
+[4.415335] (-) TimerEvent: {}
+[4.515787] (-) TimerEvent: {}
+[4.559087] (hockey_gui) StdoutLine: {'line': b'running egg_info\n'}
+[4.559635] (hockey_gui) StdoutLine: {'line': b'creating ../../../build/hockey_gui/hockey_gui.egg-info\n'}
+[4.559911] (hockey_gui) StdoutLine: {'line': b'writing ../../../build/hockey_gui/hockey_gui.egg-info/PKG-INFO\n'}
+[4.560311] (hockey_gui) StdoutLine: {'line': b'writing dependency_links to ../../../build/hockey_gui/hockey_gui.egg-info/dependency_links.txt\n'}
+[4.560575] (hockey_gui) StdoutLine: {'line': b'writing entry points to ../../../build/hockey_gui/hockey_gui.egg-info/entry_points.txt\n'}
+[4.560790] (hockey_gui) StdoutLine: {'line': b'writing requirements to ../../../build/hockey_gui/hockey_gui.egg-info/requires.txt\n'}
+[4.561080] (hockey_gui) StdoutLine: {'line': b'writing top-level names to ../../../build/hockey_gui/hockey_gui.egg-info/top_level.txt\n'}
+[4.562105] (hockey_gui) StdoutLine: {'line': b"writing manifest file '../../../build/hockey_gui/hockey_gui.egg-info/SOURCES.txt'\n"}
+[4.615908] (-) TimerEvent: {}
+[4.617050] (hockey_gui) StdoutLine: {'line': b"reading manifest file '../../../build/hockey_gui/hockey_gui.egg-info/SOURCES.txt'\n"}
+[4.618690] (hockey_gui) StdoutLine: {'line': b"writing manifest file '../../../build/hockey_gui/hockey_gui.egg-info/SOURCES.txt'\n"}
+[4.618930] (hockey_gui) StdoutLine: {'line': b'running build\n'}
+[4.619189] (hockey_gui) StdoutLine: {'line': b'running build_py\n'}
+[4.619378] (hockey_gui) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/hockey_gui/build\n'}
+[4.619573] (hockey_gui) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/hockey_gui/build/lib\n'}
+[4.619712] (hockey_gui) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui\n'}
+[4.619810] (hockey_gui) StdoutLine: {'line': b'copying hockey_gui/gui_node.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui\n'}
+[4.639596] (hockey_gui) StdoutLine: {'line': b'copying hockey_gui/main.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui\n'}
+[4.650166] (data_logger) StdoutLine: {'line': b'running egg_info\n'}
+[4.650889] (data_logger) StdoutLine: {'line': b'creating ../../../build/data_logger/data_logger.egg-info\n'}
+[4.651120] (data_logger) StdoutLine: {'line': b'writing ../../../build/data_logger/data_logger.egg-info/PKG-INFO\n'}
+[4.651529] (data_logger) StdoutLine: {'line': b'writing dependency_links to ../../../build/data_logger/data_logger.egg-info/dependency_links.txt\n'}
+[4.651831] (data_logger) StdoutLine: {'line': b'writing entry points to ../../../build/data_logger/data_logger.egg-info/entry_points.txt\n'}
+[4.652088] (data_logger) StdoutLine: {'line': b'writing requirements to ../../../build/data_logger/data_logger.egg-info/requires.txt\n'}
+[4.652318] (data_logger) StdoutLine: {'line': b'writing top-level names to ../../../build/data_logger/data_logger.egg-info/top_level.txt\n'}
+[4.654072] (data_logger) StdoutLine: {'line': b"writing manifest file '../../../build/data_logger/data_logger.egg-info/SOURCES.txt'\n"}
+[4.676938] (hockey_gui) StdoutLine: {'line': b'copying hockey_gui/path_generator.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui\n'}
+[4.691975] (hockey_gui) StdoutLine: {'line': b'copying hockey_gui/app_framework.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui\n'}
+[4.698638] (data_logger) StdoutLine: {'line': b"reading manifest file '../../../build/data_logger/data_logger.egg-info/SOURCES.txt'\n"}
+[4.699576] (data_logger) StdoutLine: {'line': b"writing manifest file '../../../build/data_logger/data_logger.egg-info/SOURCES.txt'\n"}
+[4.699809] (data_logger) StdoutLine: {'line': b'running build\n'}
+[4.699958] (data_logger) StdoutLine: {'line': b'running build_py\n'}
+[4.700174] (data_logger) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/data_logger/build\n'}
+[4.700592] (data_logger) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/data_logger/build/lib\n'}
+[4.700825] (data_logger) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger\n'}
+[4.700996] (data_logger) StdoutLine: {'line': b'copying data_logger/make_model_data.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger\n'}
+[4.701183] (data_logger) StdoutLine: {'line': b'copying data_logger/plotter.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger\n'}
+[4.701325] (data_logger) StdoutLine: {'line': b'copying data_logger/logger_node.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger\n'}
+[4.701427] (data_logger) StdoutLine: {'line': b'copying data_logger/solve_for_coefs.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger\n'}
+[4.701527] (data_logger) StdoutLine: {'line': b'copying data_logger/model_plotter.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger\n'}
+[4.701659] (data_logger) StdoutLine: {'line': b'copying data_logger/__init__.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger\n'}
+[4.701755] (data_logger) StdoutLine: {'line': b'running install\n'}
+[4.702694] (data_logger) StdoutLine: {'line': b'running install_lib\n'}
+[4.703904] (data_logger) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger\n'}
+[4.704130] (data_logger) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/make_model_data.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger\n'}
+[4.704317] (data_logger) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/plotter.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger\n'}
+[4.704514] (data_logger) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/logger_node.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger\n'}
+[4.704679] (data_logger) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/solve_for_coefs.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger\n'}
+[4.704823] (data_logger) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/model_plotter.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger\n'}
+[4.704923] (data_logger) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/__init__.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger\n'}
+[4.705415] (data_logger) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/make_model_data.py to make_model_data.cpython-38.pyc\n'}
+[4.708040] (data_logger) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/plotter.py to plotter.cpython-38.pyc\n'}
+[4.708830] (data_logger) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/logger_node.py to logger_node.cpython-38.pyc\n'}
+[4.709616] (data_logger) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/solve_for_coefs.py to solve_for_coefs.cpython-38.pyc\n'}
+[4.710236] (hockey_gui) StdoutLine: {'line': b'copying hockey_gui/BP_Coms.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui\n'}
+[4.710562] (data_logger) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/model_plotter.py to model_plotter.cpython-38.pyc\n'}
+[4.711205] (data_logger) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/__init__.py to __init__.cpython-38.pyc\n'}
+[4.711484] (data_logger) StdoutLine: {'line': b'running install_data\n'}
+[4.712291] (data_logger) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/data_logger/share/ament_index\n'}
+[4.712593] (data_logger) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/data_logger/share/ament_index/resource_index\n'}
+[4.712823] (data_logger) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/data_logger/share/ament_index/resource_index/packages\n'}
+[4.713039] (data_logger) StdoutLine: {'line': b'copying resource/data_logger -> /home/fizzer/PucksInDeep/install/data_logger/share/ament_index/resource_index/packages\n'}
+[4.713211] (data_logger) StdoutLine: {'line': b'copying package.xml -> /home/fizzer/PucksInDeep/install/data_logger/share/data_logger\n'}
+[4.713420] (data_logger) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.715317] (data_logger) StdoutLine: {'line': b'Copying ../../../build/data_logger/data_logger.egg-info to /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger-0.0.0-py3.8.egg-info\n'}
+[4.715992] (-) TimerEvent: {}
+[4.716666] (data_logger) StdoutLine: {'line': b'running install_scripts\n'}
+[4.739481] (data_logger) StdoutLine: {'line': b'Installing logger script to /home/fizzer/PucksInDeep/install/data_logger/lib/data_logger\n'}
+[4.740037] (data_logger) StdoutLine: {'line': b"writing list of installed files to '/home/fizzer/PucksInDeep/build/data_logger/install.log'\n"}
+[4.740798] (hockey_gui) StdoutLine: {'line': b'copying hockey_gui/mplwidget.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui\n'}
+[4.767559] (hockey_gui) StdoutLine: {'line': b'copying hockey_gui/__init__.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui\n'}
+[4.768170] (hockey_gui) StdoutLine: {'line': b'running install\n'}
+[4.769850] (hockey_gui) StdoutLine: {'line': b'running install_lib\n'}
+[4.771540] (hockey_gui) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui\n'}
+[4.771953] (hockey_gui) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/gui_node.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui\n'}
+[4.772288] (hockey_gui) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/main.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui\n'}
+[4.772602] (hockey_gui) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/path_generator.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui\n'}
+[4.772863] (hockey_gui) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/app_framework.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui\n'}
+[4.773412] (hockey_gui) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/BP_Coms.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui\n'}
+[4.773844] (hockey_gui) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/mplwidget.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui\n'}
+[4.776212] (hockey_gui) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/__init__.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui\n'}
+[4.776793] (hockey_gui) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/gui_node.py to gui_node.cpython-38.pyc\n'}
+[4.777029] (data_logger) CommandEnded: {'returncode': 0}
+[4.777624] (hockey_gui) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/main.py to main.cpython-38.pyc\n'}
+[4.777844] (hockey_gui) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/path_generator.py to path_generator.cpython-38.pyc\n'}
+[4.780516] (hockey_gui) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/app_framework.py to app_framework.cpython-38.pyc\n'}
+[4.780980] (hockey_gui) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/BP_Coms.py to BP_Coms.cpython-38.pyc\n'}
+[4.781452] (hockey_gui) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/mplwidget.py to mplwidget.cpython-38.pyc\n'}
+[4.782034] (hockey_gui) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/__init__.py to __init__.cpython-38.pyc\n'}
+[4.786126] (hockey_gui) StdoutLine: {'line': b'running install_data\n'}
+[4.788518] (hockey_gui) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/hockey_gui/share/ament_index\n'}
+[4.789022] (hockey_gui) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/hockey_gui/share/ament_index/resource_index\n'}
+[4.789267] (hockey_gui) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/hockey_gui/share/ament_index/resource_index/packages\n'}
+[4.789379] (hockey_gui) StdoutLine: {'line': b'copying resource/hockey_gui -> /home/fizzer/PucksInDeep/install/hockey_gui/share/ament_index/resource_index/packages\n'}
+[4.789475] (hockey_gui) StdoutLine: {'line': b'copying package.xml -> /home/fizzer/PucksInDeep/install/hockey_gui/share/hockey_gui\n'}
+[4.789567] (hockey_gui) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.789660] (hockey_gui) StdoutLine: {'line': b'Copying ../../../build/hockey_gui/hockey_gui.egg-info to /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui-0.0.0-py3.8.egg-info\n'}
+[4.796355] (hockey_gui) StdoutLine: {'line': b'running install_scripts\n'}
+[4.801700] (data_logger) JobEnded: {'identifier': 'data_logger', 'rc': 0}
+[4.832428] (-) TimerEvent: {}
+[4.832881] (hockey_testing) JobStarted: {'identifier': 'hockey_testing'}
+[4.835585] (hockey_gui) StdoutLine: {'line': b'Installing main script to /home/fizzer/PucksInDeep/install/hockey_gui/lib/hockey_gui\n'}
+[4.836538] (hockey_gui) StdoutLine: {'line': b"writing list of installed files to '/home/fizzer/PucksInDeep/build/hockey_gui/install.log'\n"}
+[4.932639] (-) TimerEvent: {}
+[5.033377] (-) TimerEvent: {}
+[5.054341] (PuckTrackerCpp) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/puck_tracker.dir/lib/savgol/savgol.cpp.o\x1b[0m\n'}
+[5.128998] (hockey_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[5.133504] (-) TimerEvent: {}
+[5.234097] (-) TimerEvent: {}
+[5.263042] (hockey_gui) CommandEnded: {'returncode': 0}
+[5.276007] (hockey_gui) JobEnded: {'identifier': 'hockey_gui', 'rc': 0}
+[5.279649] (pt) JobStarted: {'identifier': 'pt'}
+[5.294036] (pt) JobProgress: {'identifier': 'pt', 'progress': 'cmake'}
+[5.294568] (pt) Command: {'cmd': ['/usr/bin/cmake', '/home/fizzer/PucksInDeep/PC/rosHockey/pt', '-DCMAKE_INSTALL_PREFIX=/home/fizzer/PucksInDeep/install/pt'], 'cwd': '/home/fizzer/PucksInDeep/build/pt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'fizzer'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fizzer'), ('OLDPWD', '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fizzer'), ('WINDOWID', '46137347'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307'), ('GDM_LANG', 'en_CA'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/fizzer/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/fizzer'), ('AMENT_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/fizzer/PucksInDeep/build/pt'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy')]), 'shell': False}
+[5.334383] (-) TimerEvent: {}
+[5.412284] (pt) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[5.434491] (-) TimerEvent: {}
+[5.490457] (pt) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[5.497812] (pt) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[5.534607] (-) TimerEvent: {}
+[5.588880] (pt) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[5.590713] (pt) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.634722] (-) TimerEvent: {}
+[5.639604] (hockey_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.688829] (pt) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.717622] (pt) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.718413] (pt) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.723668] (pt) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[5.734827] (-) TimerEvent: {}
+[5.805504] (hockey_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.834960] (-) TimerEvent: {}
+[5.843868] (pt) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.846153] (pt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.935106] (-) TimerEvent: {}
+[5.967314] (pt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.985855] (pt) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.986721] (pt) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.007871] (pt) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[6.011523] (pt) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.014928] (hockey_testing) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/hockey_testing', 'build', '--build-base', '/home/fizzer/PucksInDeep/build/hockey_testing/build', 'install', '--prefix', '/home/fizzer/PucksInDeep/install/hockey_testing', '--record', '/home/fizzer/PucksInDeep/build/hockey_testing/install.log', '--single-version-externally-managed'], 'cwd': '/home/fizzer/PucksInDeep/PC/rosHockey/hockey_testing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'fizzer', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1384', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/fizzer', 'OLDPWD': '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'fizzer', 'WINDOWID': '46137347', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307', 'GDM_LANG': 'en_CA', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/fizzer/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fizzer', 'AMENT_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/fizzer/PucksInDeep/build/hockey_testing', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs'}, 'shell': False}
+[6.035231] (-) TimerEvent: {}
+[6.063412] (pt) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.064586] (pt) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.135341] (-) TimerEvent: {}
+[6.235767] (-) TimerEvent: {}
+[6.336158] (-) TimerEvent: {}
+[6.399640] (hockey_testing) StdoutLine: {'line': b'running egg_info\n'}
+[6.400448] (hockey_testing) StdoutLine: {'line': b'creating ../../../build/hockey_testing/hockey_testing.egg-info\n'}
+[6.400848] (hockey_testing) StdoutLine: {'line': b'writing ../../../build/hockey_testing/hockey_testing.egg-info/PKG-INFO\n'}
+[6.401155] (hockey_testing) StdoutLine: {'line': b'writing dependency_links to ../../../build/hockey_testing/hockey_testing.egg-info/dependency_links.txt\n'}
+[6.401552] (hockey_testing) StdoutLine: {'line': b'writing entry points to ../../../build/hockey_testing/hockey_testing.egg-info/entry_points.txt\n'}
+[6.401768] (hockey_testing) StdoutLine: {'line': b'writing requirements to ../../../build/hockey_testing/hockey_testing.egg-info/requires.txt\n'}
+[6.401972] (hockey_testing) StdoutLine: {'line': b'writing top-level names to ../../../build/hockey_testing/hockey_testing.egg-info/top_level.txt\n'}
+[6.403201] (hockey_testing) StdoutLine: {'line': b"writing manifest file '../../../build/hockey_testing/hockey_testing.egg-info/SOURCES.txt'\n"}
+[6.436267] (-) TimerEvent: {}
+[6.456711] (hockey_testing) StdoutLine: {'line': b"reading manifest file '../../../build/hockey_testing/hockey_testing.egg-info/SOURCES.txt'\n"}
+[6.457869] (hockey_testing) StdoutLine: {'line': b"writing manifest file '../../../build/hockey_testing/hockey_testing.egg-info/SOURCES.txt'\n"}
+[6.458199] (hockey_testing) StdoutLine: {'line': b'running build\n'}
+[6.458507] (hockey_testing) StdoutLine: {'line': b'running build_py\n'}
+[6.458659] (hockey_testing) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/hockey_testing/build\n'}
+[6.458804] (hockey_testing) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/hockey_testing/build/lib\n'}
+[6.458911] (hockey_testing) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing\n'}
+[6.459063] (hockey_testing) StdoutLine: {'line': b'copying hockey_testing/data_gen.py -> /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing\n'}
+[6.459172] (hockey_testing) StdoutLine: {'line': b'copying hockey_testing/run_test.py -> /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing\n'}
+[6.459344] (hockey_testing) StdoutLine: {'line': b'copying hockey_testing/__init__.py -> /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing\n'}
+[6.459443] (hockey_testing) StdoutLine: {'line': b'running install\n'}
+[6.460458] (hockey_testing) StdoutLine: {'line': b'running install_lib\n'}
+[6.461746] (hockey_testing) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing\n'}
+[6.461950] (hockey_testing) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing/data_gen.py -> /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing\n'}
+[6.462280] (hockey_testing) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing/run_test.py -> /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing\n'}
+[6.462474] (hockey_testing) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing/__init__.py -> /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing\n'}
+[6.463286] (hockey_testing) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing/data_gen.py to data_gen.cpython-38.pyc\n'}
+[6.466355] (hockey_testing) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing/run_test.py to run_test.cpython-38.pyc\n'}
+[6.467128] (hockey_testing) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing/__init__.py to __init__.cpython-38.pyc\n'}
+[6.467430] (hockey_testing) StdoutLine: {'line': b'running install_data\n'}
+[6.468125] (hockey_testing) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/hockey_testing/share/ament_index\n'}
+[6.468500] (hockey_testing) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/hockey_testing/share/ament_index/resource_index\n'}
+[6.468801] (hockey_testing) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/hockey_testing/share/ament_index/resource_index/packages\n'}
+[6.468961] (hockey_testing) StdoutLine: {'line': b'copying resource/hockey_testing -> /home/fizzer/PucksInDeep/install/hockey_testing/share/ament_index/resource_index/packages\n'}
+[6.469073] (hockey_testing) StdoutLine: {'line': b'copying package.xml -> /home/fizzer/PucksInDeep/install/hockey_testing/share/hockey_testing\n'}
+[6.469181] (hockey_testing) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.471128] (hockey_testing) StdoutLine: {'line': b'Copying ../../../build/hockey_testing/hockey_testing.egg-info to /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing-0.0.0-py3.8.egg-info\n'}
+[6.472261] (hockey_testing) StdoutLine: {'line': b'running install_scripts\n'}
+[6.496248] (hockey_testing) StdoutLine: {'line': b"writing list of installed files to '/home/fizzer/PucksInDeep/build/hockey_testing/install.log'\n"}
+[6.527701] (hockey_testing) CommandEnded: {'returncode': 0}
+[6.536368] (-) TimerEvent: {}
+[6.538853] (hockey_testing) JobEnded: {'identifier': 'hockey_testing', 'rc': 0}
+[6.539485] (sim) JobStarted: {'identifier': 'sim'}
+[6.539598] (pt) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[6.636588] (-) TimerEvent: {}
+[6.737212] (-) TimerEvent: {}
+[6.837553] (-) TimerEvent: {}
+[6.938544] (-) TimerEvent: {}
+[7.040160] (-) TimerEvent: {}
+[7.112750] (hockey_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.140248] (-) TimerEvent: {}
+[7.183063] (pt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.202390] (pt) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.240382] (-) TimerEvent: {}
+[7.256658] (hockey_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.340491] (-) TimerEvent: {}
+[7.358414] (pt) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.409066] (pt) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.440605] (-) TimerEvent: {}
+[7.541203] (-) TimerEvent: {}
+[7.641645] (-) TimerEvent: {}
+[7.701918] (sim) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/sim', 'build', '--build-base', '/home/fizzer/PucksInDeep/build/sim/build', 'install', '--prefix', '/home/fizzer/PucksInDeep/install/sim', '--record', '/home/fizzer/PucksInDeep/build/sim/install.log', '--single-version-externally-managed'], 'cwd': '/home/fizzer/PucksInDeep/PC/rosHockey/sim', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'fizzer', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1384', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/fizzer', 'OLDPWD': '/home/fizzer/PucksInDeep/PC/rosHockey/pt/src', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'fizzer', 'WINDOWID': '46137347', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/fizzer-Vostro-3458:@/tmp/.ICE-unix/1307,unix/fizzer-Vostro-3458:/tmp/.ICE-unix/1307', 'GDM_LANG': 'en_CA', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/fizzer/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fizzer', 'AMENT_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/fizzer/PucksInDeep/build/sim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/RPi/rosHockey/build/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool/lib/python3.8/site-packages:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/fizzer/PucksInDeep/PC/rosHockey/install/pt:/home/fizzer/PucksInDeep/PC/rosHockey/install/my_package:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms_cpp:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_msgs'}, 'shell': False}
+[7.741807] (-) TimerEvent: {}
+[7.773385] (pt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.774588] (hockey_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.841878] (-) TimerEvent: {}
+[7.942340] (-) TimerEvent: {}
+[8.042673] (-) TimerEvent: {}
+[8.055563] (hockey_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[8.100670] (sim) StdoutLine: {'line': b'running egg_info\n'}
+[8.101465] (sim) StdoutLine: {'line': b'creating ../../../build/sim/sim.egg-info\n'}
+[8.101823] (sim) StdoutLine: {'line': b'writing ../../../build/sim/sim.egg-info/PKG-INFO\n'}
+[8.102338] (sim) StdoutLine: {'line': b'writing dependency_links to ../../../build/sim/sim.egg-info/dependency_links.txt\n'}
+[8.102558] (sim) StdoutLine: {'line': b'writing entry points to ../../../build/sim/sim.egg-info/entry_points.txt\n'}
+[8.102797] (sim) StdoutLine: {'line': b'writing requirements to ../../../build/sim/sim.egg-info/requires.txt\n'}
+[8.102990] (sim) StdoutLine: {'line': b'writing top-level names to ../../../build/sim/sim.egg-info/top_level.txt\n'}
+[8.104745] (sim) StdoutLine: {'line': b"writing manifest file '../../../build/sim/sim.egg-info/SOURCES.txt'\n"}
+[8.142763] (-) TimerEvent: {}
+[8.152993] (sim) StdoutLine: {'line': b"reading manifest file '../../../build/sim/sim.egg-info/SOURCES.txt'\n"}
+[8.154245] (sim) StdoutLine: {'line': b"writing manifest file '../../../build/sim/sim.egg-info/SOURCES.txt'\n"}
+[8.154628] (sim) StdoutLine: {'line': b'running build\n'}
+[8.154949] (sim) StdoutLine: {'line': b'running build_py\n'}
+[8.155188] (sim) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/sim/build\n'}
+[8.155469] (sim) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/sim/build/lib\n'}
+[8.155710] (sim) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/build/sim/build/lib/sim\n'}
+[8.155938] (sim) StdoutLine: {'line': b'copying sim/logger_node.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim\n'}
+[8.156195] (sim) StdoutLine: {'line': b'copying sim/simulation_node.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim\n'}
+[8.156404] (sim) StdoutLine: {'line': b'copying sim/solve_for_coefs.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim\n'}
+[8.156592] (sim) StdoutLine: {'line': b'copying sim/AirHockey.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim\n'}
+[8.156772] (sim) StdoutLine: {'line': b'copying sim/__init__.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim\n'}
+[8.156962] (sim) StdoutLine: {'line': b'running install\n'}
+[8.157592] (sim) StdoutLine: {'line': b'running install_lib\n'}
+[8.159809] (sim) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim\n'}
+[8.160322] (sim) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/logger_node.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim\n'}
+[8.160677] (sim) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/simulation_node.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim\n'}
+[8.161033] (sim) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/solve_for_coefs.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim\n'}
+[8.161279] (sim) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/AirHockey.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim\n'}
+[8.161489] (sim) StdoutLine: {'line': b'copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/__init__.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim\n'}
+[8.162259] (sim) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/logger_node.py to logger_node.cpython-38.pyc\n'}
+[8.166137] (sim) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/simulation_node.py to simulation_node.cpython-38.pyc\n'}
+[8.166994] (sim) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/solve_for_coefs.py to solve_for_coefs.cpython-38.pyc\n'}
+[8.168638] (sim) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/AirHockey.py to AirHockey.cpython-38.pyc\n'}
+[8.175937] (sim) StdoutLine: {'line': b'byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/__init__.py to __init__.cpython-38.pyc\n'}
+[8.176415] (sim) StdoutLine: {'line': b'running install_data\n'}
+[8.177514] (sim) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/sim/share/ament_index\n'}
+[8.177998] (sim) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/sim/share/ament_index/resource_index\n'}
+[8.178392] (sim) StdoutLine: {'line': b'creating /home/fizzer/PucksInDeep/install/sim/share/ament_index/resource_index/packages\n'}
+[8.178614] (sim) StdoutLine: {'line': b'copying resource/sim -> /home/fizzer/PucksInDeep/install/sim/share/ament_index/resource_index/packages\n'}
+[8.178819] (sim) StdoutLine: {'line': b'copying package.xml -> /home/fizzer/PucksInDeep/install/sim/share/sim\n'}
+[8.179013] (sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.180730] (sim) StdoutLine: {'line': b'Copying ../../../build/sim/sim.egg-info to /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim-0.0.0-py3.8.egg-info\n'}
+[8.182089] (sim) StdoutLine: {'line': b'running install_scripts\n'}
+[8.209773] (sim) StdoutLine: {'line': b"writing list of installed files to '/home/fizzer/PucksInDeep/build/sim/install.log'\n"}
+[8.242914] (-) TimerEvent: {}
+[8.249002] (sim) CommandEnded: {'returncode': 0}
+[8.257327] (sim) JobEnded: {'identifier': 'sim', 'rc': 0}
+[8.343042] (-) TimerEvent: {}
+[8.443414] (-) TimerEvent: {}
+[8.460833] (hockey_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[8.484569] (pt) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.543532] (-) TimerEvent: {}
+[8.576970] (pt) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.618185] (pt) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.643670] (-) TimerEvent: {}
+[8.744326] (-) TimerEvent: {}
+[8.844935] (-) TimerEvent: {}
+[8.914329] (pt) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.915440] (pt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.945063] (-) TimerEvent: {}
+[8.978895] (hockey_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.038965] (hockey_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.045193] (-) TimerEvent: {}
+[9.131171] (pt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[9.132251] (pt) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[9.145319] (-) TimerEvent: {}
+[9.182551] (hockey_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.225569] (hockey_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[9.245455] (-) TimerEvent: {}
+[9.285214] (pt) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.285653] (pt) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.345575] (-) TimerEvent: {}
+[9.446219] (-) TimerEvent: {}
+[9.448015] (hockey_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.448564] (hockey_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.448834] (hockey_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[9.449058] (hockey_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[9.545737] (hockey_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.546317] (-) TimerEvent: {}
+[9.571722] (pt) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.574296] (pt) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.646455] (-) TimerEvent: {}
+[9.747064] (-) TimerEvent: {}
+[9.847518] (-) TimerEvent: {}
+[9.875120] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.947644] (-) TimerEvent: {}
+[10.048277] (-) TimerEvent: {}
+[10.148903] (-) TimerEvent: {}
+[10.218873] (PuckTrackerCpp) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable puck_tracker\x1b[0m\n'}
+[10.249034] (-) TimerEvent: {}
+[10.348952] (PuckTrackerCpp) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libtracker.so\x1b[0m\n'}
+[10.349273] (-) TimerEvent: {}
+[10.449279] (PuckTrackerCpp) StdoutLine: {'line': b'[ 77%] Built target tracker\n'}
+[10.449651] (-) TimerEvent: {}
+[10.462177] (PuckTrackerCpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target savgol\x1b[0m\n'}
+[10.475781] (PuckTrackerCpp) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/savgol.dir/lib/savgol/savgol.cpp.o\x1b[0m\n'}
+[10.549780] (-) TimerEvent: {}
+[10.583944] (PuckTrackerCpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libsavgol.so\x1b[0m\n'}
+[10.649964] (-) TimerEvent: {}
+[10.686668] (pt) StderrLine: {'line': b'CMake Error at CMakeLists.txt:42 (find_package):\n'}
+[10.687118] (pt) StderrLine: {'line': b'  By not providing "Findhockey_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[10.687278] (pt) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[10.687426] (pt) StderrLine: {'line': b'  "hockey_msgs", but CMake did not find one.\n'}
+[10.687637] (pt) StderrLine: {'line': b'\n'}
+[10.687962] (pt) StderrLine: {'line': b'  Could not find a package configuration file provided by "hockey_msgs" with\n'}
+[10.688145] (pt) StderrLine: {'line': b'  any of the following names:\n'}
+[10.688269] (pt) StderrLine: {'line': b'\n'}
+[10.688377] (pt) StderrLine: {'line': b'    hockey_msgsConfig.cmake\n'}
+[10.688478] (pt) StderrLine: {'line': b'    hockey_msgs-config.cmake\n'}
+[10.688579] (pt) StderrLine: {'line': b'\n'}
+[10.688678] (pt) StderrLine: {'line': b'  Add the installation prefix of "hockey_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[10.688775] (pt) StderrLine: {'line': b'  "hockey_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[10.688870] (pt) StderrLine: {'line': b'  "hockey_msgs" provides a separate development package or SDK, be sure it\n'}
+[10.688964] (pt) StderrLine: {'line': b'  has been installed.\n'}
+[10.689056] (pt) StderrLine: {'line': b'\n'}
+[10.689147] (pt) StderrLine: {'line': b'\n'}
+[10.690297] (pt) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[10.690435] (pt) StdoutLine: {'line': b'See also "/home/fizzer/PucksInDeep/build/pt/CMakeFiles/CMakeOutput.log".\n'}
+[10.690536] (pt) StdoutLine: {'line': b'See also "/home/fizzer/PucksInDeep/build/pt/CMakeFiles/CMakeError.log".\n'}
+[10.706593] (pt) CommandEnded: {'returncode': 1}
+[10.717229] (PuckTrackerCpp) StdoutLine: {'line': b'[100%] Built target savgol\n'}
+[10.731367] (pt) JobEnded: {'identifier': 'pt', 'rc': 1}
+[10.750057] (-) TimerEvent: {}
+[10.821349] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.822653] (hockey_msgs) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.822887] (hockey_msgs) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.850179] (-) TimerEvent: {}
+[10.874926] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.875228] (hockey_msgs) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.900098] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.931601] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.949191] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[10.950270] (-) TimerEvent: {}
+[11.002524] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.002855] (hockey_msgs) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.029513] (hockey_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.050407] (-) TimerEvent: {}
+[11.150750] (-) TimerEvent: {}
+[11.251150] (-) TimerEvent: {}
+[11.351492] (-) TimerEvent: {}
+[11.385688] (hockey_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.451637] (-) TimerEvent: {}
+[11.551987] (-) TimerEvent: {}
+[11.607474] (hockey_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[11.611140] (hockey_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/fizzer/PucksInDeep/build/hockey_msgs\n'}
+[11.619349] (hockey_msgs) JobEnded: {'identifier': 'hockey_msgs', 'rc': 'SIGINT'}
+[11.652151] (-) TimerEvent: {}
+[11.752536] (-) TimerEvent: {}
+[11.852913] (-) TimerEvent: {}
+[11.953237] (-) TimerEvent: {}
+[12.053565] (-) TimerEvent: {}
+[12.153923] (-) TimerEvent: {}
+[12.254357] (-) TimerEvent: {}
+[12.354718] (-) TimerEvent: {}
+[12.455075] (-) TimerEvent: {}
+[12.555482] (-) TimerEvent: {}
+[12.655886] (-) TimerEvent: {}
+[12.756190] (-) TimerEvent: {}
+[12.856624] (-) TimerEvent: {}
+[12.957211] (-) TimerEvent: {}
+[13.057555] (-) TimerEvent: {}
+[13.157934] (-) TimerEvent: {}
+[13.258316] (-) TimerEvent: {}
+[13.358718] (-) TimerEvent: {}
+[13.459076] (-) TimerEvent: {}
+[13.559490] (-) TimerEvent: {}
+[13.633285] (PuckTrackerCpp) StdoutLine: {'line': b'[100%] Built target puck_tracker\n'}
+[13.647544] (PuckTrackerCpp) JobEnded: {'identifier': 'PuckTrackerCpp', 'rc': 'SIGINT'}
+[13.659073] (bp_coms_cpp) JobSkipped: {'identifier': 'bp_coms_cpp'}
+[13.659287] (-) EventReactorShutdown: {}

@@ -1,0 +1,39 @@
+[1.562s] Invoking command in '/home/fizzer/PucksInDeep/PC/rosHockey/HLC': PYTHONPATH=/home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/HLC build --build-base /home/fizzer/PucksInDeep/build/HLC/build install --prefix /home/fizzer/PucksInDeep/install/HLC --record /home/fizzer/PucksInDeep/build/HLC/install.log --single-version-externally-managed
+[1.928s] running egg_info
+[1.928s] creating ../../../build/HLC/HLC.egg-info
+[1.928s] writing ../../../build/HLC/HLC.egg-info/PKG-INFO
+[1.929s] writing dependency_links to ../../../build/HLC/HLC.egg-info/dependency_links.txt
+[1.929s] writing entry points to ../../../build/HLC/HLC.egg-info/entry_points.txt
+[1.929s] writing requirements to ../../../build/HLC/HLC.egg-info/requires.txt
+[1.929s] writing top-level names to ../../../build/HLC/HLC.egg-info/top_level.txt
+[2.088s] writing manifest file '../../../build/HLC/HLC.egg-info/SOURCES.txt'
+[2.153s] reading manifest file '../../../build/HLC/HLC.egg-info/SOURCES.txt'
+[2.156s] writing manifest file '../../../build/HLC/HLC.egg-info/SOURCES.txt'
+[2.156s] running build
+[2.156s] running build_py
+[2.156s] creating /home/fizzer/PucksInDeep/build/HLC/build
+[2.157s] creating /home/fizzer/PucksInDeep/build/HLC/build/lib
+[2.157s] creating /home/fizzer/PucksInDeep/build/HLC/build/lib/HLC
+[2.157s] copying HLC/main.py -> /home/fizzer/PucksInDeep/build/HLC/build/lib/HLC
+[2.157s] copying HLC/__init__.py -> /home/fizzer/PucksInDeep/build/HLC/build/lib/HLC
+[2.158s] running install
+[2.158s] running install_lib
+[2.161s] creating /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC
+[2.161s] copying /home/fizzer/PucksInDeep/build/HLC/build/lib/HLC/main.py -> /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC
+[2.162s] copying /home/fizzer/PucksInDeep/build/HLC/build/lib/HLC/__init__.py -> /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC
+[2.163s] byte-compiling /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC/main.py to main.cpython-38.pyc
+[2.168s] byte-compiling /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC/__init__.py to __init__.cpython-38.pyc
+[2.168s] running install_data
+[2.169s] creating /home/fizzer/PucksInDeep/install/HLC/share/ament_index
+[2.184s] creating /home/fizzer/PucksInDeep/install/HLC/share/ament_index/resource_index
+[2.184s] creating /home/fizzer/PucksInDeep/install/HLC/share/ament_index/resource_index/packages
+[2.184s] copying resource/HLC -> /home/fizzer/PucksInDeep/install/HLC/share/ament_index/resource_index/packages
+[2.184s] copying package.xml -> /home/fizzer/PucksInDeep/install/HLC/share/HLC
+[2.184s] running install_egg_info
+[2.184s] Copying ../../../build/HLC/HLC.egg-info to /home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages/HLC-0.0.0-py3.8.egg-info
+[2.185s] running install_scripts
+[2.233s] Installing Fake_Shot script to /home/fizzer/PucksInDeep/install/HLC/lib/HLC
+[2.234s] Installing HLC script to /home/fizzer/PucksInDeep/install/HLC/lib/HLC
+[2.234s] Installing intercept script to /home/fizzer/PucksInDeep/install/HLC/lib/HLC
+[2.235s] writing list of installed files to '/home/fizzer/PucksInDeep/build/HLC/install.log'
+[2.292s] Invoked command in '/home/fizzer/PucksInDeep/PC/rosHockey/HLC' returned '0': PYTHONPATH=/home/fizzer/PucksInDeep/install/HLC/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/HLC build --build-base /home/fizzer/PucksInDeep/build/HLC/build install --prefix /home/fizzer/PucksInDeep/install/HLC --record /home/fizzer/PucksInDeep/build/HLC/install.log --single-version-externally-managed

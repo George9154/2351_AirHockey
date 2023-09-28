@@ -1,0 +1,49 @@
+[1.981s] Invoking command in '/home/fizzer/PucksInDeep/PC/rosHockey/data_logger': PYTHONPATH=/home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/data_logger build --build-base /home/fizzer/PucksInDeep/build/data_logger/build install --prefix /home/fizzer/PucksInDeep/install/data_logger --record /home/fizzer/PucksInDeep/build/data_logger/install.log --single-version-externally-managed
+[2.356s] running egg_info
+[2.356s] creating ../../../build/data_logger/data_logger.egg-info
+[2.357s] writing ../../../build/data_logger/data_logger.egg-info/PKG-INFO
+[2.357s] writing dependency_links to ../../../build/data_logger/data_logger.egg-info/dependency_links.txt
+[2.357s] writing entry points to ../../../build/data_logger/data_logger.egg-info/entry_points.txt
+[2.358s] writing requirements to ../../../build/data_logger/data_logger.egg-info/requires.txt
+[2.358s] writing top-level names to ../../../build/data_logger/data_logger.egg-info/top_level.txt
+[2.360s] writing manifest file '../../../build/data_logger/data_logger.egg-info/SOURCES.txt'
+[2.404s] reading manifest file '../../../build/data_logger/data_logger.egg-info/SOURCES.txt'
+[2.405s] writing manifest file '../../../build/data_logger/data_logger.egg-info/SOURCES.txt'
+[2.405s] running build
+[2.406s] running build_py
+[2.406s] creating /home/fizzer/PucksInDeep/build/data_logger/build
+[2.406s] creating /home/fizzer/PucksInDeep/build/data_logger/build/lib
+[2.406s] creating /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+[2.407s] copying data_logger/make_model_data.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+[2.407s] copying data_logger/plotter.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+[2.407s] copying data_logger/logger_node.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+[2.407s] copying data_logger/solve_for_coefs.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+[2.407s] copying data_logger/model_plotter.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+[2.407s] copying data_logger/__init__.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+[2.407s] running install
+[2.408s] running install_lib
+[2.410s] creating /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+[2.410s] copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/make_model_data.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+[2.410s] copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/plotter.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+[2.410s] copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/logger_node.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+[2.410s] copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/solve_for_coefs.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+[2.410s] copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/model_plotter.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+[2.410s] copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/__init__.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+[2.411s] byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/make_model_data.py to make_model_data.cpython-38.pyc
+[2.414s] byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/plotter.py to plotter.cpython-38.pyc
+[2.414s] byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/logger_node.py to logger_node.cpython-38.pyc
+[2.415s] byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/solve_for_coefs.py to solve_for_coefs.cpython-38.pyc
+[2.416s] byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/model_plotter.py to model_plotter.cpython-38.pyc
+[2.417s] byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/__init__.py to __init__.cpython-38.pyc
+[2.417s] running install_data
+[2.418s] creating /home/fizzer/PucksInDeep/install/data_logger/share/ament_index
+[2.418s] creating /home/fizzer/PucksInDeep/install/data_logger/share/ament_index/resource_index
+[2.418s] creating /home/fizzer/PucksInDeep/install/data_logger/share/ament_index/resource_index/packages
+[2.419s] copying resource/data_logger -> /home/fizzer/PucksInDeep/install/data_logger/share/ament_index/resource_index/packages
+[2.419s] copying package.xml -> /home/fizzer/PucksInDeep/install/data_logger/share/data_logger
+[2.419s] running install_egg_info
+[2.421s] Copying ../../../build/data_logger/data_logger.egg-info to /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger-0.0.0-py3.8.egg-info
+[2.422s] running install_scripts
+[2.445s] Installing logger script to /home/fizzer/PucksInDeep/install/data_logger/lib/data_logger
+[2.446s] writing list of installed files to '/home/fizzer/PucksInDeep/build/data_logger/install.log'
+[2.483s] Invoked command in '/home/fizzer/PucksInDeep/PC/rosHockey/data_logger' returned '0': PYTHONPATH=/home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/data_logger build --build-base /home/fizzer/PucksInDeep/build/data_logger/build install --prefix /home/fizzer/PucksInDeep/install/data_logger --record /home/fizzer/PucksInDeep/build/data_logger/install.log --single-version-externally-managed

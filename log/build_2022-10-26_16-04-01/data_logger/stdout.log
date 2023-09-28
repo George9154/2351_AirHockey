@@ -1,0 +1,47 @@
+running egg_info
+creating ../../../build/data_logger/data_logger.egg-info
+writing ../../../build/data_logger/data_logger.egg-info/PKG-INFO
+writing dependency_links to ../../../build/data_logger/data_logger.egg-info/dependency_links.txt
+writing entry points to ../../../build/data_logger/data_logger.egg-info/entry_points.txt
+writing requirements to ../../../build/data_logger/data_logger.egg-info/requires.txt
+writing top-level names to ../../../build/data_logger/data_logger.egg-info/top_level.txt
+writing manifest file '../../../build/data_logger/data_logger.egg-info/SOURCES.txt'
+reading manifest file '../../../build/data_logger/data_logger.egg-info/SOURCES.txt'
+writing manifest file '../../../build/data_logger/data_logger.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fizzer/PucksInDeep/build/data_logger/build
+creating /home/fizzer/PucksInDeep/build/data_logger/build/lib
+creating /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+copying data_logger/make_model_data.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+copying data_logger/plotter.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+copying data_logger/logger_node.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+copying data_logger/solve_for_coefs.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+copying data_logger/model_plotter.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+copying data_logger/__init__.py -> /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger
+running install
+running install_lib
+creating /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/make_model_data.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/plotter.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/logger_node.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/solve_for_coefs.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/model_plotter.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+copying /home/fizzer/PucksInDeep/build/data_logger/build/lib/data_logger/__init__.py -> /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger
+byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/make_model_data.py to make_model_data.cpython-38.pyc
+byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/plotter.py to plotter.cpython-38.pyc
+byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/logger_node.py to logger_node.cpython-38.pyc
+byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/solve_for_coefs.py to solve_for_coefs.cpython-38.pyc
+byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/model_plotter.py to model_plotter.cpython-38.pyc
+byte-compiling /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/fizzer/PucksInDeep/install/data_logger/share/ament_index
+creating /home/fizzer/PucksInDeep/install/data_logger/share/ament_index/resource_index
+creating /home/fizzer/PucksInDeep/install/data_logger/share/ament_index/resource_index/packages
+copying resource/data_logger -> /home/fizzer/PucksInDeep/install/data_logger/share/ament_index/resource_index/packages
+copying package.xml -> /home/fizzer/PucksInDeep/install/data_logger/share/data_logger
+running install_egg_info
+Copying ../../../build/data_logger/data_logger.egg-info to /home/fizzer/PucksInDeep/install/data_logger/lib/python3.8/site-packages/data_logger-0.0.0-py3.8.egg-info
+running install_scripts
+Installing logger script to /home/fizzer/PucksInDeep/install/data_logger/lib/data_logger
+writing list of installed files to '/home/fizzer/PucksInDeep/build/data_logger/install.log'

@@ -1,0 +1,1 @@
+/home/fizzer/PucksInDeep/build/hockey_msgs/rosidl_generator_c/hockey_msgs/msg/detail/mallet_pos__struct.h

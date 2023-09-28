@@ -1,0 +1,3 @@
+[console_scripts]
+logger = data_logger.logger_node:main
+

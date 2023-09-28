@@ -1,0 +1,43 @@
+running egg_info
+creating ../../../build/sim/sim.egg-info
+writing ../../../build/sim/sim.egg-info/PKG-INFO
+writing dependency_links to ../../../build/sim/sim.egg-info/dependency_links.txt
+writing entry points to ../../../build/sim/sim.egg-info/entry_points.txt
+writing requirements to ../../../build/sim/sim.egg-info/requires.txt
+writing top-level names to ../../../build/sim/sim.egg-info/top_level.txt
+writing manifest file '../../../build/sim/sim.egg-info/SOURCES.txt'
+reading manifest file '../../../build/sim/sim.egg-info/SOURCES.txt'
+writing manifest file '../../../build/sim/sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fizzer/PucksInDeep/build/sim/build
+creating /home/fizzer/PucksInDeep/build/sim/build/lib
+creating /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+copying sim/logger_node.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+copying sim/simulation_node.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+copying sim/solve_for_coefs.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+copying sim/AirHockey.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+copying sim/__init__.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+running install
+running install_lib
+creating /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/logger_node.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/simulation_node.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/solve_for_coefs.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/AirHockey.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/__init__.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/logger_node.py to logger_node.cpython-38.pyc
+byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/simulation_node.py to simulation_node.cpython-38.pyc
+byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/solve_for_coefs.py to solve_for_coefs.cpython-38.pyc
+byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/AirHockey.py to AirHockey.cpython-38.pyc
+byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/fizzer/PucksInDeep/install/sim/share/ament_index
+creating /home/fizzer/PucksInDeep/install/sim/share/ament_index/resource_index
+creating /home/fizzer/PucksInDeep/install/sim/share/ament_index/resource_index/packages
+copying resource/sim -> /home/fizzer/PucksInDeep/install/sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/fizzer/PucksInDeep/install/sim/share/sim
+running install_egg_info
+Copying ../../../build/sim/sim.egg-info to /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/fizzer/PucksInDeep/build/sim/install.log'

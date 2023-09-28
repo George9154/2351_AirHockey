@@ -1,0 +1,39 @@
+[1.187s] Invoking command in '/home/fizzer/PucksInDeep/PC/rosHockey/hockey_testing': PYTHONPATH=/home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hockey_testing build --build-base /home/fizzer/PucksInDeep/build/hockey_testing/build install --prefix /home/fizzer/PucksInDeep/install/hockey_testing --record /home/fizzer/PucksInDeep/build/hockey_testing/install.log --single-version-externally-managed
+[1.567s] running egg_info
+[1.568s] creating ../../../build/hockey_testing/hockey_testing.egg-info
+[1.568s] writing ../../../build/hockey_testing/hockey_testing.egg-info/PKG-INFO
+[1.568s] writing dependency_links to ../../../build/hockey_testing/hockey_testing.egg-info/dependency_links.txt
+[1.569s] writing entry points to ../../../build/hockey_testing/hockey_testing.egg-info/entry_points.txt
+[1.569s] writing requirements to ../../../build/hockey_testing/hockey_testing.egg-info/requires.txt
+[1.569s] writing top-level names to ../../../build/hockey_testing/hockey_testing.egg-info/top_level.txt
+[1.570s] writing manifest file '../../../build/hockey_testing/hockey_testing.egg-info/SOURCES.txt'
+[1.624s] reading manifest file '../../../build/hockey_testing/hockey_testing.egg-info/SOURCES.txt'
+[1.625s] writing manifest file '../../../build/hockey_testing/hockey_testing.egg-info/SOURCES.txt'
+[1.625s] running build
+[1.626s] running build_py
+[1.626s] creating /home/fizzer/PucksInDeep/build/hockey_testing/build
+[1.626s] creating /home/fizzer/PucksInDeep/build/hockey_testing/build/lib
+[1.626s] creating /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing
+[1.626s] copying hockey_testing/data_gen.py -> /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing
+[1.626s] copying hockey_testing/run_test.py -> /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing
+[1.626s] copying hockey_testing/__init__.py -> /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing
+[1.627s] running install
+[1.628s] running install_lib
+[1.629s] creating /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing
+[1.629s] copying /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing/data_gen.py -> /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing
+[1.629s] copying /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing/run_test.py -> /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing
+[1.630s] copying /home/fizzer/PucksInDeep/build/hockey_testing/build/lib/hockey_testing/__init__.py -> /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing
+[1.630s] byte-compiling /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing/data_gen.py to data_gen.cpython-38.pyc
+[1.634s] byte-compiling /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing/run_test.py to run_test.cpython-38.pyc
+[1.634s] byte-compiling /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing/__init__.py to __init__.cpython-38.pyc
+[1.635s] running install_data
+[1.635s] creating /home/fizzer/PucksInDeep/install/hockey_testing/share/ament_index
+[1.636s] creating /home/fizzer/PucksInDeep/install/hockey_testing/share/ament_index/resource_index
+[1.636s] creating /home/fizzer/PucksInDeep/install/hockey_testing/share/ament_index/resource_index/packages
+[1.636s] copying resource/hockey_testing -> /home/fizzer/PucksInDeep/install/hockey_testing/share/ament_index/resource_index/packages
+[1.636s] copying package.xml -> /home/fizzer/PucksInDeep/install/hockey_testing/share/hockey_testing
+[1.636s] running install_egg_info
+[1.638s] Copying ../../../build/hockey_testing/hockey_testing.egg-info to /home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages/hockey_testing-0.0.0-py3.8.egg-info
+[1.639s] running install_scripts
+[1.663s] writing list of installed files to '/home/fizzer/PucksInDeep/build/hockey_testing/install.log'
+[1.695s] Invoked command in '/home/fizzer/PucksInDeep/PC/rosHockey/hockey_testing' returned '0': PYTHONPATH=/home/fizzer/PucksInDeep/install/hockey_testing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hockey_testing build --build-base /home/fizzer/PucksInDeep/build/hockey_testing/build install --prefix /home/fizzer/PucksInDeep/install/hockey_testing --record /home/fizzer/PucksInDeep/build/hockey_testing/install.log --single-version-externally-managed

@@ -1,0 +1,45 @@
+[1.166s] Invoking command in '/home/fizzer/PucksInDeep/PC/rosHockey/sim': PYTHONPATH=/home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sim build --build-base /home/fizzer/PucksInDeep/build/sim/build install --prefix /home/fizzer/PucksInDeep/install/sim --record /home/fizzer/PucksInDeep/build/sim/install.log --single-version-externally-managed
+[1.561s] running egg_info
+[1.562s] creating ../../../build/sim/sim.egg-info
+[1.562s] writing ../../../build/sim/sim.egg-info/PKG-INFO
+[1.563s] writing dependency_links to ../../../build/sim/sim.egg-info/dependency_links.txt
+[1.563s] writing entry points to ../../../build/sim/sim.egg-info/entry_points.txt
+[1.563s] writing requirements to ../../../build/sim/sim.egg-info/requires.txt
+[1.564s] writing top-level names to ../../../build/sim/sim.egg-info/top_level.txt
+[1.565s] writing manifest file '../../../build/sim/sim.egg-info/SOURCES.txt'
+[1.614s] reading manifest file '../../../build/sim/sim.egg-info/SOURCES.txt'
+[1.615s] writing manifest file '../../../build/sim/sim.egg-info/SOURCES.txt'
+[1.615s] running build
+[1.616s] running build_py
+[1.616s] creating /home/fizzer/PucksInDeep/build/sim/build
+[1.616s] creating /home/fizzer/PucksInDeep/build/sim/build/lib
+[1.616s] creating /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+[1.617s] copying sim/logger_node.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+[1.617s] copying sim/simulation_node.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+[1.617s] copying sim/solve_for_coefs.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+[1.617s] copying sim/AirHockey.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+[1.617s] copying sim/__init__.py -> /home/fizzer/PucksInDeep/build/sim/build/lib/sim
+[1.618s] running install
+[1.618s] running install_lib
+[1.621s] creating /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+[1.621s] copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/logger_node.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+[1.621s] copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/simulation_node.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+[1.622s] copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/solve_for_coefs.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+[1.622s] copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/AirHockey.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+[1.622s] copying /home/fizzer/PucksInDeep/build/sim/build/lib/sim/__init__.py -> /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim
+[1.623s] byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/logger_node.py to logger_node.cpython-38.pyc
+[1.627s] byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/simulation_node.py to simulation_node.cpython-38.pyc
+[1.628s] byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/solve_for_coefs.py to solve_for_coefs.cpython-38.pyc
+[1.629s] byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/AirHockey.py to AirHockey.cpython-38.pyc
+[1.637s] byte-compiling /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim/__init__.py to __init__.cpython-38.pyc
+[1.637s] running install_data
+[1.638s] creating /home/fizzer/PucksInDeep/install/sim/share/ament_index
+[1.639s] creating /home/fizzer/PucksInDeep/install/sim/share/ament_index/resource_index
+[1.639s] creating /home/fizzer/PucksInDeep/install/sim/share/ament_index/resource_index/packages
+[1.639s] copying resource/sim -> /home/fizzer/PucksInDeep/install/sim/share/ament_index/resource_index/packages
+[1.639s] copying package.xml -> /home/fizzer/PucksInDeep/install/sim/share/sim
+[1.640s] running install_egg_info
+[1.641s] Copying ../../../build/sim/sim.egg-info to /home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages/sim-0.0.0-py3.8.egg-info
+[1.643s] running install_scripts
+[1.671s] writing list of installed files to '/home/fizzer/PucksInDeep/build/sim/install.log'
+[1.710s] Invoked command in '/home/fizzer/PucksInDeep/PC/rosHockey/sim' returned '0': PYTHONPATH=/home/fizzer/PucksInDeep/install/sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sim build --build-base /home/fizzer/PucksInDeep/build/sim/build install --prefix /home/fizzer/PucksInDeep/install/sim --record /home/fizzer/PucksInDeep/build/sim/install.log --single-version-externally-managed

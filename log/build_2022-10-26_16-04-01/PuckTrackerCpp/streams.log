@@ -1,0 +1,36 @@
+[0.733s] Invoking command in '/home/fizzer/PucksInDeep/build/PuckTrackerCpp': /usr/bin/cmake /home/fizzer/PucksInDeep/RPi/RPi-pucktracker/puck_tracker_cpp -DCMAKE_INSTALL_PREFIX=/home/fizzer/PucksInDeep/install/PuckTrackerCpp
+[0.876s] -- The C compiler identification is GNU 9.4.0
+[2.189s] -- The CXX compiler identification is GNU 9.4.0
+[2.291s] -- Check for working C compiler: /usr/bin/cc
+[2.433s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.435s] -- Detecting C compiler ABI info
+[2.599s] -- Detecting C compiler ABI info - done
+[2.639s] -- Detecting C compile features
+[2.640s] -- Detecting C compile features - done
+[2.650s] -- Check for working CXX compiler: /usr/bin/c++
+[2.789s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.792s] -- Detecting CXX compiler ABI info
+[2.936s] -- Detecting CXX compiler ABI info - done
+[2.973s] -- Detecting CXX compile features
+[2.975s] -- Detecting CXX compile features - done
+[3.184s] -- Found OpenCV: /usr (found version "4.2.0") 
+[3.185s] -- Configuring done
+[3.198s] -- Generating done
+[3.199s] -- Build files have been written to: /home/fizzer/PucksInDeep/build/PuckTrackerCpp
+[3.290s] Invoked command in '/home/fizzer/PucksInDeep/build/PuckTrackerCpp' returned '0': /usr/bin/cmake /home/fizzer/PucksInDeep/RPi/RPi-pucktracker/puck_tracker_cpp -DCMAKE_INSTALL_PREFIX=/home/fizzer/PucksInDeep/install/PuckTrackerCpp
+[3.296s] Invoking command in '/home/fizzer/PucksInDeep/build/PuckTrackerCpp': /usr/bin/cmake --build /home/fizzer/PucksInDeep/build/PuckTrackerCpp -- -j4 -l4
+[3.372s] [35m[1mScanning dependencies of target puck_tracker[0m
+[3.387s] [35m[1mScanning dependencies of target tracker[0m
+[3.959s] [ 11%] [32mBuilding CXX object CMakeFiles/tracker.dir/lib/savgol/savgol.cpp.o[0m
+[3.979s] [ 22%] [32mBuilding CXX object CMakeFiles/puck_tracker.dir/puck_tracker.cpp.o[0m
+[3.980s] [ 33%] [32mBuilding CXX object CMakeFiles/tracker.dir/lib/PuckTracker/tracker.cpp.o[0m
+[3.999s] [ 44%] [32mBuilding CXX object CMakeFiles/puck_tracker.dir/lib/PuckTracker/tracker.cpp.o[0m
+[5.008s] [ 55%] [32mBuilding CXX object CMakeFiles/puck_tracker.dir/lib/savgol/savgol.cpp.o[0m
+[10.173s] [ 66%] [32m[1mLinking CXX executable puck_tracker[0m
+[10.303s] [ 77%] [32m[1mLinking CXX shared library libtracker.so[0m
+[10.403s] [ 77%] Built target tracker
+[10.416s] [35m[1mScanning dependencies of target savgol[0m
+[10.430s] [ 88%] [32mBuilding CXX object CMakeFiles/savgol.dir/lib/savgol/savgol.cpp.o[0m
+[10.538s] [100%] [32m[1mLinking CXX shared library libsavgol.so[0m
+[10.671s] [100%] Built target savgol
+[13.587s] [100%] Built target puck_tracker

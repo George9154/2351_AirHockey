@@ -1,0 +1,52 @@
+[1.805s] Invoking command in '/home/fizzer/PucksInDeep/PC/rosHockey/hockey_gui': PYTHONPATH=/home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hockey_gui build --build-base /home/fizzer/PucksInDeep/build/hockey_gui/build install --prefix /home/fizzer/PucksInDeep/install/hockey_gui --record /home/fizzer/PucksInDeep/build/hockey_gui/install.log --single-version-externally-managed
+[2.236s] running egg_info
+[2.236s] creating ../../../build/hockey_gui/hockey_gui.egg-info
+[2.236s] writing ../../../build/hockey_gui/hockey_gui.egg-info/PKG-INFO
+[2.237s] writing dependency_links to ../../../build/hockey_gui/hockey_gui.egg-info/dependency_links.txt
+[2.237s] writing entry points to ../../../build/hockey_gui/hockey_gui.egg-info/entry_points.txt
+[2.237s] writing requirements to ../../../build/hockey_gui/hockey_gui.egg-info/requires.txt
+[2.237s] writing top-level names to ../../../build/hockey_gui/hockey_gui.egg-info/top_level.txt
+[2.239s] writing manifest file '../../../build/hockey_gui/hockey_gui.egg-info/SOURCES.txt'
+[2.293s] reading manifest file '../../../build/hockey_gui/hockey_gui.egg-info/SOURCES.txt'
+[2.295s] writing manifest file '../../../build/hockey_gui/hockey_gui.egg-info/SOURCES.txt'
+[2.295s] running build
+[2.296s] running build_py
+[2.296s] creating /home/fizzer/PucksInDeep/build/hockey_gui/build
+[2.296s] creating /home/fizzer/PucksInDeep/build/hockey_gui/build/lib
+[2.296s] creating /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui
+[2.296s] copying hockey_gui/gui_node.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui
+[2.316s] copying hockey_gui/main.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui
+[2.353s] copying hockey_gui/path_generator.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui
+[2.368s] copying hockey_gui/app_framework.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui
+[2.387s] copying hockey_gui/BP_Coms.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui
+[2.417s] copying hockey_gui/mplwidget.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui
+[2.444s] copying hockey_gui/__init__.py -> /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui
+[2.445s] running install
+[2.446s] running install_lib
+[2.448s] creating /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui
+[2.448s] copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/gui_node.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui
+[2.449s] copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/main.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui
+[2.449s] copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/path_generator.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui
+[2.450s] copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/app_framework.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui
+[2.450s] copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/BP_Coms.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui
+[2.450s] copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/mplwidget.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui
+[2.453s] copying /home/fizzer/PucksInDeep/build/hockey_gui/build/lib/hockey_gui/__init__.py -> /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui
+[2.453s] byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/gui_node.py to gui_node.cpython-38.pyc
+[2.454s] byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/main.py to main.cpython-38.pyc
+[2.457s] byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/path_generator.py to path_generator.cpython-38.pyc
+[2.457s] byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/app_framework.py to app_framework.cpython-38.pyc
+[2.458s] byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/BP_Coms.py to BP_Coms.cpython-38.pyc
+[2.458s] byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/mplwidget.py to mplwidget.cpython-38.pyc
+[2.462s] byte-compiling /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui/__init__.py to __init__.cpython-38.pyc
+[2.465s] running install_data
+[2.465s] creating /home/fizzer/PucksInDeep/install/hockey_gui/share/ament_index
+[2.465s] creating /home/fizzer/PucksInDeep/install/hockey_gui/share/ament_index/resource_index
+[2.466s] creating /home/fizzer/PucksInDeep/install/hockey_gui/share/ament_index/resource_index/packages
+[2.466s] copying resource/hockey_gui -> /home/fizzer/PucksInDeep/install/hockey_gui/share/ament_index/resource_index/packages
+[2.466s] copying package.xml -> /home/fizzer/PucksInDeep/install/hockey_gui/share/hockey_gui
+[2.466s] running install_egg_info
+[2.466s] Copying ../../../build/hockey_gui/hockey_gui.egg-info to /home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages/hockey_gui-0.0.0-py3.8.egg-info
+[2.473s] running install_scripts
+[2.512s] Installing main script to /home/fizzer/PucksInDeep/install/hockey_gui/lib/hockey_gui
+[2.513s] writing list of installed files to '/home/fizzer/PucksInDeep/build/hockey_gui/install.log'
+[2.940s] Invoked command in '/home/fizzer/PucksInDeep/PC/rosHockey/hockey_gui' returned '0': PYTHONPATH=/home/fizzer/PucksInDeep/install/hockey_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hockey_gui build --build-base /home/fizzer/PucksInDeep/build/hockey_gui/build install --prefix /home/fizzer/PucksInDeep/install/hockey_gui --record /home/fizzer/PucksInDeep/build/hockey_gui/install.log --single-version-externally-managed

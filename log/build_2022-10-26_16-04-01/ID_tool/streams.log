@@ -1,0 +1,40 @@
+[1.542s] Invoking command in '/home/fizzer/PucksInDeep/PC/rosHockey/ID_tool': PYTHONPATH=/home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ID_tool build --build-base /home/fizzer/PucksInDeep/build/ID_tool/build install --prefix /home/fizzer/PucksInDeep/install/ID_tool --record /home/fizzer/PucksInDeep/build/ID_tool/install.log --single-version-externally-managed
+[1.901s] running egg_info
+[1.904s] creating ../../../build/ID_tool/ID_tool.egg-info
+[1.904s] writing ../../../build/ID_tool/ID_tool.egg-info/PKG-INFO
+[1.905s] writing dependency_links to ../../../build/ID_tool/ID_tool.egg-info/dependency_links.txt
+[1.905s] writing entry points to ../../../build/ID_tool/ID_tool.egg-info/entry_points.txt
+[1.905s] writing requirements to ../../../build/ID_tool/ID_tool.egg-info/requires.txt
+[1.905s] writing top-level names to ../../../build/ID_tool/ID_tool.egg-info/top_level.txt
+[2.075s] writing manifest file '../../../build/ID_tool/ID_tool.egg-info/SOURCES.txt'
+[2.138s] reading manifest file '../../../build/ID_tool/ID_tool.egg-info/SOURCES.txt'
+[2.140s] writing manifest file '../../../build/ID_tool/ID_tool.egg-info/SOURCES.txt'
+[2.140s] running build
+[2.140s] running build_py
+[2.141s] creating /home/fizzer/PucksInDeep/build/ID_tool/build
+[2.141s] creating /home/fizzer/PucksInDeep/build/ID_tool/build/lib
+[2.141s] creating /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool
+[2.141s] copying ID_tool/ID_tool.py -> /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool
+[2.142s] copying ID_tool/__init__.py -> /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool
+[2.142s] copying ID_tool/ModelLearningMonitor.py -> /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool
+[2.143s] running install
+[2.144s] running install_lib
+[2.146s] creating /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool
+[2.146s] copying /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool/ID_tool.py -> /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool
+[2.146s] copying /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool/__init__.py -> /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool
+[2.147s] copying /home/fizzer/PucksInDeep/build/ID_tool/build/lib/ID_tool/ModelLearningMonitor.py -> /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool
+[2.148s] byte-compiling /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool/ID_tool.py to ID_tool.cpython-38.pyc
+[2.150s] byte-compiling /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool/__init__.py to __init__.cpython-38.pyc
+[2.150s] byte-compiling /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool/ModelLearningMonitor.py to ModelLearningMonitor.cpython-38.pyc
+[2.151s] running install_data
+[2.152s] creating /home/fizzer/PucksInDeep/install/ID_tool/share/ament_index
+[2.153s] creating /home/fizzer/PucksInDeep/install/ID_tool/share/ament_index/resource_index
+[2.153s] creating /home/fizzer/PucksInDeep/install/ID_tool/share/ament_index/resource_index/packages
+[2.153s] copying resource/ID_tool -> /home/fizzer/PucksInDeep/install/ID_tool/share/ament_index/resource_index/packages
+[2.153s] copying package.xml -> /home/fizzer/PucksInDeep/install/ID_tool/share/ID_tool
+[2.154s] running install_egg_info
+[2.171s] Copying ../../../build/ID_tool/ID_tool.egg-info to /home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages/ID_tool-0.0.0-py3.8.egg-info
+[2.171s] running install_scripts
+[2.197s] Installing ID_tool script to /home/fizzer/PucksInDeep/install/ID_tool/lib/ID_tool
+[2.197s] writing list of installed files to '/home/fizzer/PucksInDeep/build/ID_tool/install.log'
+[2.242s] Invoked command in '/home/fizzer/PucksInDeep/PC/rosHockey/ID_tool' returned '0': PYTHONPATH=/home/fizzer/PucksInDeep/install/ID_tool/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ID_tool build --build-base /home/fizzer/PucksInDeep/build/ID_tool/build install --prefix /home/fizzer/PucksInDeep/install/ID_tool --record /home/fizzer/PucksInDeep/build/ID_tool/install.log --single-version-externally-managed

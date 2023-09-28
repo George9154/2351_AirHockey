@@ -1,0 +1,51 @@
+[0.061s] Invoking command in '/home/fizzer/PucksInDeep/build/hockey_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/PucksInDeep/PC/rosHockey/install/sim:/home/fizzer/PucksInDeep/PC/rosHockey/install/puck_tracker:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_testing:/home/fizzer/PucksInDeep/PC/rosHockey/install/hockey_gui:/home/fizzer/PucksInDeep/PC/rosHockey/install/data_logger:/home/fizzer/PucksInDeep/PC/rosHockey/install/bp_coms:/home/fizzer/PucksInDeep/PC/rosHockey/install/ID_tool:/home/fizzer/PucksInDeep/PC/rosHockey/install/HLC:/opt/ros/foxy /usr/bin/cmake /home/fizzer/PucksInDeep/PC/rosHockey/hockey_msgs -DCMAKE_INSTALL_PREFIX=/home/fizzer/PucksInDeep/install/hockey_msgs
+[0.916s] -- The C compiler identification is GNU 9.4.0
+[2.226s] -- The CXX compiler identification is GNU 9.4.0
+[2.334s] -- Check for working C compiler: /usr/bin/cc
+[2.494s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.495s] -- Detecting C compiler ABI info
+[2.615s] -- Detecting C compiler ABI info - done
+[2.631s] -- Detecting C compile features
+[2.632s] -- Detecting C compile features - done
+[2.646s] -- Check for working CXX compiler: /usr/bin/c++
+[2.761s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.764s] -- Detecting CXX compiler ABI info
+[2.911s] -- Detecting CXX compiler ABI info - done
+[2.931s] -- Detecting CXX compile features
+[2.933s] -- Detecting CXX compile features - done
+[3.167s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.311s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.311s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.184s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.128s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[5.638s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.804s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.111s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.255s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.773s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.054s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[8.459s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[8.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.038s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.181s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[9.224s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[9.447s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[9.447s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.447s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[9.448s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[9.544s] -- Found PythonExtra: .so  
+[9.874s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.820s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.821s] -- Configured cppcheck include dirs: 
+[10.821s] -- Configured cppcheck exclude dirs and/or files: 
+[10.874s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.874s] -- Configured cpplint exclude dirs and/or files: 
+[10.899s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.930s] -- Added test 'lint_cmake' to check CMake code style
+[10.948s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[11.001s] -- Added test 'uncrustify' to check C / C++ code style
+[11.001s] -- Configured uncrustify additional arguments: 
+[11.028s] -- Added test 'xmllint' to check XML markup files
+[11.384s] -- Configuring done
+[11.606s] -- Generating done
+[11.610s] -- Build files have been written to: /home/fizzer/PucksInDeep/build/hockey_msgs

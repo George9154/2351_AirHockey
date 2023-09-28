@@ -1,0 +1,4 @@
+/home/fizzer/PucksInDeep/build/hockey_msgs/rosidl_adapter/hockey_msgs:msg/MalletPos.idl
+/home/fizzer/PucksInDeep/build/hockey_msgs/rosidl_adapter/hockey_msgs:msg/PuckStatus.idl
+/home/fizzer/PucksInDeep/build/hockey_msgs/rosidl_adapter/hockey_msgs:msg/MotorStatus.idl
+/home/fizzer/PucksInDeep/build/hockey_msgs/rosidl_adapter/hockey_msgs:msg/NextPath.idl
